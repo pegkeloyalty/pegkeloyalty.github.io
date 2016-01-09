@@ -162,31 +162,39 @@
 		</div>
 	
 		<div class="col-12 col-lg-12">
-			<a href="/category/Loyalty Program/">Loyalty Program <span class="badge">8</span></a>
+			<a href="/category/Marketing/">Marketing <span class="badge">1</span></a>
 		</div>
 	
 		<div class="col-12 col-lg-12">
-			<a href="/category/Restaurants/">Restaurants <span class="badge">8</span></a>
+			<a href="/category/Loyalty Trends/">Loyalty Trends <span class="badge">2</span></a>
 		</div>
 	
 		<div class="col-12 col-lg-12">
-			<a href="/category/Loyalty Software/">Loyalty Software <span class="badge">8</span></a>
+			<a href="/category/Trends/">Trends <span class="badge">1</span></a>
 		</div>
 	
 		<div class="col-12 col-lg-12">
-			<a href="/category/jekyll/">jekyll <span class="badge">1</span></a>
+			<a href="/category/Loyalty Program/">Loyalty Program <span class="badge">5</span></a>
 		</div>
 	
 		<div class="col-12 col-lg-12">
-			<a href="/category/update/">update <span class="badge">1</span></a>
+			<a href="/category/Restaurants/">Restaurants <span class="badge">2</span></a>
 		</div>
 	
 		<div class="col-12 col-lg-12">
-			<a href="/category/Customer Loyalty Program/">Customer Loyalty Program <span class="badge">1</span></a>
+			<a href="/category/Loyalty Software/">Loyalty Software <span class="badge">2</span></a>
 		</div>
 	
 		<div class="col-12 col-lg-12">
-			<a href="/category/test/">test <span class="badge">1</span></a>
+			<a href="/category/Retention/">Retention <span class="badge">1</span></a>
+		</div>
+	
+		<div class="col-12 col-lg-12">
+			<a href="/category/Holidays/">Holidays <span class="badge">1</span></a>
+		</div>
+	
+		<div class="col-12 col-lg-12">
+			<a href="/category/Pegke Loyalty Software/">Pegke Loyalty Software <span class="badge">1</span></a>
 		</div>
 	
 </div>
@@ -197,51 +205,31 @@
 <div class="row">
 	
 		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/test/">test <span class="badge">1</span></a>
+		<a href="/tag/Trends/">Trends <span class="badge">1</span></a>
 		</div>
 	
 		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/123/">123 <span class="badge">1</span></a>
+		<a href="/tag/Customer Loyalty Program/">Customer Loyalty Program <span class="badge">1</span></a>
 		</div>
 	
 		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/3/">3 <span class="badge">1</span></a>
+		<a href="/tag/Loyalty/">Loyalty <span class="badge">1</span></a>
 		</div>
 	
 		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/sdfg/">sdfg <span class="badge">7</span></a>
+		<a href="/tag/Restaurants/">Restaurants <span class="badge">1</span></a>
 		</div>
 	
 		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/gd sdfg sd dsfg/">gd sdfg sd dsfg <span class="badge">1</span></a>
+		<a href="/tag/Retention/">Retention <span class="badge">1</span></a>
 		</div>
 	
 		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/sdf/">sdf <span class="badge">1</span></a>
+		<a href="/tag/trends/">trends <span class="badge">1</span></a>
 		</div>
 	
 		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/g s/">g s <span class="badge">1</span></a>
-		</div>
-	
-		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/dfg/">dfg <span class="badge">1</span></a>
-		</div>
-	
-		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/sf/">sf <span class="badge">1</span></a>
-		</div>
-	
-		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/sfdg/">sfdg <span class="badge">1</span></a>
-		</div>
-	
-		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/sd g/">sd g <span class="badge">1</span></a>
-		</div>
-	
-		<div class="col-lg-3 col-sm-4 col-12">
-		<a href="/tag/sd/">sd <span class="badge">1</span></a>
+		<a href="/tag/Loyalty Program/">Loyalty Program <span class="badge">1</span></a>
 		</div>
 	
 </div>
@@ -330,7 +318,7 @@
   </div>
   <div class="ui left aligned container grey small">
     <div class="ui divider hidden"></div>
-    &copy; 2016 - <dfn><abbr title="Customer Loyalty &amp; Retention Management Software">Pegke Rewards &#8482;</abbr></dfn>
+    &copy; 2016 - <dfn><abbr title="Customer Loyalty &amp; Retention Management Software">Pegke Rewards &#8482;</abbr></dfn> ❤︎ <br>
   </div>
 </div>
 
@@ -458,9 +446,9 @@ head.ready(function () {
   });
 
   $.fn.api.settings.api = {
-    'signup'  : 'https://pegke.com/api/user/register',
-    'support' : 'https://pegke.com/api/user/register',
-    'registermobile'  : 'https://pegke.com/api/user/register'
+    'signup'  : 'https://dashboard.pegke.com/api/user/register',
+    'support' : 'https://dashboard.pegke.com/api/user/register',
+    'registermobile'  : 'https://dashboard.pegke.com/api/user/register'
   };
 
   $(document).ready(function() {

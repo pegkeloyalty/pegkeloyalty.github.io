@@ -5,8 +5,8 @@
     <description>Customer Loyalty &amp;amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards</description>
     <link>https://pegke.com/</link>
     <atom:link href="https://pegke.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jan 2016 17:53:17 +0530</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 17:53:17 +0530</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2016 14:10:51 +0530</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 14:10:51 +0530</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -55,14 +55,14 @@ One of the super fast method to integrate Pegke with your business if you’re i
         <link>https://pegke.com/blog/how-pegke-customer-loyalty-program-interacts-your-posinventory</link>
         <guid isPermaLink="true">https://pegke.com/blog/how-pegke-customer-loyalty-program-interacts-your-posinventory</guid>
         
+        <category>Loyalty Program</category>
+        
         
         <category>blogs</category>
         
         <category>Loyalty Program</category>
         
-        <category>Restaurants</category>
-        
-        <category>Loyalty Software</category>
+        <category>Pegke Loyalty Software</category>
         
       </item>
     
@@ -103,14 +103,14 @@ One of the super fast method to integrate Pegke with your business if you’re i
         <link>https://pegke.com/blog/top-5-customer-loyalty-trends-2016</link>
         <guid isPermaLink="true">https://pegke.com/blog/top-5-customer-loyalty-trends-2016</guid>
         
+        <category>trends</category>
+        
         
         <category>blogs</category>
         
         <category>Loyalty Program</category>
         
-        <category>Restaurants</category>
-        
-        <category>Loyalty Software</category>
+        <category>Loyalty Trends</category>
         
       </item>
     
@@ -141,11 +141,7 @@ One of the super fast method to integrate Pegke with your business if you’re i
         
         <category>blogs</category>
         
-        <category>Loyalty Program</category>
-        
-        <category>Restaurants</category>
-        
-        <category>Loyalty Software</category>
+        <category>Holidays</category>
         
       </item>
     
@@ -177,14 +173,14 @@ One of the super fast method to integrate Pegke with your business if you’re i
         <link>https://pegke.com/blog/customer-retention-strategies</link>
         <guid isPermaLink="true">https://pegke.com/blog/customer-retention-strategies</guid>
         
+        <category>Retention</category>
+        
         
         <category>blogs</category>
         
         <category>Loyalty Program</category>
         
-        <category>Restaurants</category>
-        
-        <category>Loyalty Software</category>
+        <category>Retention</category>
         
       </item>
     
@@ -344,6 +340,10 @@ One of the super fast method to integrate Pegke with your business if you’re i
         <pubDate>Thu, 10 Dec 2015 00:00:00 +0530</pubDate>
         <link>https://pegke.com/blog/customer-loyalty-program-software-for-restaurants</link>
         <guid isPermaLink="true">https://pegke.com/blog/customer-loyalty-program-software-for-restaurants</guid>
+        
+        <category>Loyalty</category>
+        
+        <category>Restaurants</category>
         
         
         <category>blogs</category>
@@ -551,7 +551,7 @@ One of the super fast method to integrate Pegke with your business if you’re i
       &lt;i class=&quot;checkmark box icon&quot;&gt;&lt;/i&gt;
       &lt;div class=&quot;content&quot;&gt;
         &lt;div class=&quot;header&quot;&gt;All Systems Operational #PegkeStat&lt;/div&gt;
-        &lt;p&gt;Last updated on: &lt;span id=&quot;lstmod&quot;&gt;Jan 07, 2016 05:53 PM -0500&lt;/span&gt; &lt;/p&gt;
+        &lt;p&gt;Last updated on: &lt;span id=&quot;lstmod&quot;&gt;Jan 09, 2016 02:10 PM -0500&lt;/span&gt; &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;ui divider hidden&quot;&gt;&lt;/div&gt;
@@ -1229,10 +1229,6 @@ Your clients will see through any fake representations on your part. In this man
         <guid isPermaLink="true">https://pegke.com/customer-loyalty-program</guid>
         
         
-        <category>Customer Loyalty Program</category>
-        
-        <category>test</category>
-        
       </item>
     
       <item>
@@ -1607,10 +1603,6 @@ may be set forth in Pegke’s Terms of Use from time to time.&lt;/p&gt;
         <link>https://pegke.com/about/pegke-loyalty</link>
         <guid isPermaLink="true">https://pegke.com/about/pegke-loyalty</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
