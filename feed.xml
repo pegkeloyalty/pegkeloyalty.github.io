@@ -5,9 +5,61 @@
     <description>Customer Loyalty &amp;amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards</description>
     <link>https://pegke.com/</link>
     <atom:link href="https://pegke.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Jan 2016 14:10:51 +0530</pubDate>
-    <lastBuildDate>Sat, 09 Jan 2016 14:10:51 +0530</lastBuildDate>
+    <pubDate>Mon, 11 Jan 2016 14:36:49 +0530</pubDate>
+    <lastBuildDate>Mon, 11 Jan 2016 14:36:49 +0530</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Anti-spam Legislation India</title>
+        <description>&lt;h2 id=&quot;the-can-spam-act&quot;&gt;The CAN-SPAM Act&lt;/h2&gt;
+
+&lt;p&gt;Do you use email in your business? The CAN-SPAM Act, a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have you stop emailing them, and spells out tough penalties for violations.&lt;/p&gt;
+
+&lt;p&gt;Unsolicited Electronic Mail also called “spam” is a growing concern among corporations and individuals. Spamming, once viewed as a mere nuisance, is now posing some alarming problems. In the year 2002 alone, losses to US Corporations due to spamming were a staggering $8.9 billion. In 2003, spam costs to all Non-corporation Internet users were an estimated $255 million . With the increasing number of Internet users in India, the absence of any legislation prohibiting spamming and the dearth of other spam-control measures, it is time the Government took note of this menace.&lt;/p&gt;
+
+&lt;h2 id=&quot;can-spam-act-india&quot;&gt;CAN-SPAM Act India&lt;/h2&gt;
+&lt;p&gt;The impact of spam is clearly widespread. Presently, India lacks a specific anti-spam legislation. In consideration of the swelling growth of spam across the globe and the increasing number of Indian users, it is of utmost urgency that a specific legislation is formulated to tackle the issue.&lt;/p&gt;
+
+&lt;h3 id=&quot;in-the-future&quot;&gt;In the future&lt;/h3&gt;
+&lt;p&gt;With the issue being debated across multiple levels, some black and white legislation can be expected in near future. Some quarters have already started calling for an amendment of the IT Act. A TRAI (Telecom Regulatory Authority of India) like regulator, which made regulations like “Do Not Disturb” hotlines for spam SMSs and marketing calls, can also be expected, and any violation can be expected to result in penalty. But in all these, what happens to ConstantContact and other companies providing digital marketing solutions?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-law-says&quot;&gt;The law says&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Don’t use false or misleading header information. Your “From,” “To,” “Reply-To,” and routing information – including the originating domain name and email address – must be accurate and identify the person or business who initiated the message.&lt;/li&gt;
+  &lt;li&gt;Don’t use deceptive subject lines. The subject line must accurately reflect the content of the message.
+Identify the message as an ad. The law gives you a lot of leeway in how to do this, but you must disclose clearly and conspicuously that your message is an advertisement.&lt;/li&gt;
+  &lt;li&gt;Tell recipients where you’re located. Your message must include your valid physical postal address. This can be your current street address, a post office box you’ve registered with the U.S. Postal Service, or a private mailbox you’ve registered with a commercial mail receiving agency established under Postal Service regulations.&lt;/li&gt;
+  &lt;li&gt;Tell recipients how to opt out of receiving future email from you. Your message must include a clear and conspicuous explanation of how the recipient can opt out of getting email from you in the future. Craft the notice in a way that’s easy for an ordinary person to recognize, read, and understand. Creative use of type size, color, and location can improve clarity. Give a return email address or another easy Internet-based way to allow people to communicate their choice to you. You may create a menu to allow a recipient to opt out of certain types of messages, but you must include the option to stop all commercial messages from you. Make sure your spam filter doesn’t block these opt-out requests.&lt;/li&gt;
+  &lt;li&gt;Honor opt-out requests promptly. Any opt-out mechanism you offer must be able to process opt-out requests for at least 30 days after you send your message. You must honor a recipient’s opt-out request within 10 business days. You can’t charge a fee, require the recipient to give you any personally identifying information beyond an email address, or make the recipient take any step other than sending a reply email or visiting a single page on an Internet website as a condition for honoring an opt-out request. Once people have told you they don’t want to receive more messages from you, you can’t sell or transfer their email addresses, even in the form of a mailing list. The only exception is that you may transfer the addresses to a company you’ve hired to help you comply with the CAN-SPAM Act.&lt;/li&gt;
+  &lt;li&gt;Monitor what others are doing on your behalf. The law makes clear that even if you hire another company to handle your email marketing, you can’t contract away your legal responsibility to comply with the law. Both the company whose product is promoted in the message and the company that actually sends the message may be held legally responsible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;ui header medium source&quot;&gt;Sources&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://en.wikipedia.org/wiki/CAN-SPAM_Act_of_2003&lt;/li&gt;
+  &lt;li&gt;http://www.legalservicesindia.com/articles/spamli.htm&lt;/li&gt;
+  &lt;li&gt;http://cis-india.org/internet-governance/blog/anti-spam-laws-in-different-jurisdictions&lt;/li&gt;
+  &lt;li&gt;http://yourstory.com/2015/01/company-use-spam-emails-marketing-watch/&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 +0530</pubDate>
+        <link>https://pegke.com/blog/can-spam-act-india</link>
+        <guid isPermaLink="true">https://pegke.com/blog/can-spam-act-india</guid>
+        
+        <category>terms</category>
+        
+        
+        <category>blogs</category>
+        
+        <category>CAN-SPAM</category>
+        
+        <category>Email</category>
+        
+        <category>Terms</category>
+        
+      </item>
     
       <item>
         <title>How Pegke interacts with your POS/inventory</title>
@@ -404,9 +456,11 @@ One of the super fast method to integrate Pegke with your business if you’re i
     
     &lt;img data-src=&quot;/public/img/stack/git.png&quot; data-content=&quot; Git&quot; class=&quot;ui image rounded tstack&quot; /&gt;
     
-    &lt;img data-src=&quot;/public/img/stack/mandrill.png&quot; data-content=&quot; Mandrill&quot; class=&quot;ui image rounded tstack&quot; /&gt;
+    &lt;img data-src=&quot;/public/img/stack/mandrill.png&quot; data-content=&quot; Transactional Emails&quot; class=&quot;ui image rounded tstack&quot; /&gt;
     
     &lt;img data-src=&quot;/public/img/stack/mixpanel.png&quot; data-content=&quot; Mixpanel Analytics&quot; class=&quot;ui image rounded tstack&quot; /&gt;
+    
+    &lt;img data-src=&quot;/public/img/stack/cloudflare.png&quot; data-content=&quot; CDN&quot; class=&quot;ui image rounded tstack&quot; /&gt;
     
     &lt;img data-src=&quot;/public/img/stack/digitalocean.png&quot; data-content=&quot; Digital Ocean&quot; class=&quot;ui image rounded tstack&quot; /&gt;
     
@@ -548,14 +602,14 @@ One of the super fast method to integrate Pegke with your business if you’re i
         <description>&lt;div class=&quot;ui grid stackable&quot;&gt;
   &lt;div class=&quot;column ten wide&quot;&gt;
     &lt;div class=&quot;ui icon success big message&quot;&gt;
-      &lt;i class=&quot;checkmark box icon&quot;&gt;&lt;/i&gt;
+      &lt;i class=&quot;checkmark box icon large monitor only&quot;&gt;&lt;/i&gt;
       &lt;div class=&quot;content&quot;&gt;
         &lt;div class=&quot;header&quot;&gt;All Systems Operational #PegkeStat&lt;/div&gt;
-        &lt;p&gt;Last updated on: &lt;span id=&quot;lstmod&quot;&gt;Jan 09, 2016 02:10 PM -0500&lt;/span&gt; &lt;/p&gt;
+        &lt;p&gt;Last updated on: &lt;span id=&quot;lstmod&quot;&gt;Jan 11, 2016 02:36 PM -0500&lt;/span&gt; &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;ui divider hidden&quot;&gt;&lt;/div&gt;
-    &lt;span id=&quot;pegkestat&quot;&gt;&lt;/span&gt;
+    &lt;div id=&quot;pegkestat&quot; class=&quot;ui loading segment basic&quot;&gt;&lt;/div&gt;
     &lt;div class=&quot;ui divider hidden&quot;&gt;&lt;/div&gt;
     &lt;div class=&quot;ui divider hidden&quot;&gt;&lt;/div&gt;
     &lt;h4&gt;Past Incidents&lt;/h4&gt;
@@ -1012,198 +1066,6 @@ Content-Type: application/json
       </item>
     
       <item>
-        <title>the pegke blog</title>
-        <description>&lt;div class=&quot;ui grid stackable&quot;&gt;
-  &lt;div class=&quot;eleven wide column&quot;&gt;
-    
-    
-    &lt;div class=&quot;ui column fluid&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;h4 class=&quot;ui large header&quot;&gt;
-          &lt;a href=&quot;/blog/how-pegke-customer-loyalty-program-interacts-your-posinventory&quot; title=&quot;How Pegke interacts with your POS/inventory&quot;&gt;How Pegke interacts with your POS/inventory&lt;/a&gt;
-          &lt;div class=&quot;sub header ui grey tiny&quot;&gt;03 Jan 2016&lt;/div&gt;
-        &lt;/h4&gt;
-        &lt;div class=&quot;description&quot;&gt;
-          At Pegke, we have multiple ways of integrating your POS with Pegke cloud platform. Which includes and not limited to API, Coupon Scan and Tablet. Lets take a look at each of them in detail.
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&quot;ui column fluid&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;h4 class=&quot;ui large header&quot;&gt;
-          &lt;a href=&quot;/blog/top-5-customer-loyalty-trends-2016&quot; title=&quot;Top 5 Customer Loyalty Trends of 2016&quot;&gt;Top 5 Customer Loyalty Trends of 2016&lt;/a&gt;
-          &lt;div class=&quot;sub header ui grey tiny&quot;&gt;02 Jan 2016&lt;/div&gt;
-        &lt;/h4&gt;
-        &lt;div class=&quot;description&quot;&gt;
-          &lt;p&gt;In all actuality client experience does make a difference. Brands that can give fun, satisfying encounters through great deals stages and additional items like dedication projects have the capacity to catch more rehash clients, who pivot and get new clients they could call their own through image evangelism.&lt;/p&gt;
-
-
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&quot;ui column fluid&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;h4 class=&quot;ui large header&quot;&gt;
-          &lt;a href=&quot;/blog/customer-loyalty-over-holidays&quot; title=&quot;Loyalty over the Holidays&quot;&gt;Loyalty over the Holidays&lt;/a&gt;
-          &lt;div class=&quot;sub header ui grey tiny&quot;&gt;21 Dec 2015&lt;/div&gt;
-        &lt;/h4&gt;
-        &lt;div class=&quot;description&quot;&gt;
-          &lt;p&gt;Amid the extreme center of attention on scoring revenue in a sea of competitors, it can be easy to omit what must be the precedence — successful a patron who sticks round long after the ultimate slice of ham is eaten and the lights come down. If the value of loyalty escapes you, understand this: consistent with Harvard business review, growing patron retention rates by just 5% raises gains with the aid of 25% to 95%.&lt;/p&gt;
-
-
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&quot;ui column fluid&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;h4 class=&quot;ui large header&quot;&gt;
-          &lt;a href=&quot;/blog/customer-retention-strategies&quot; title=&quot;Customer Retention Strategies&quot;&gt;Customer Retention Strategies&lt;/a&gt;
-          &lt;div class=&quot;sub header ui grey tiny&quot;&gt;21 Dec 2015&lt;/div&gt;
-        &lt;/h4&gt;
-        &lt;div class=&quot;description&quot;&gt;
-          &lt;p&gt;The results of customer retention additionally compound after some time, and in at times unforeseen ways. Indeed, even a modest change in customer retention can course through a business framework and increase after some time. The subsequent impact on long haul benefit and development shouldn’t be thought little of.&lt;/p&gt;
-
-
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&quot;ui column fluid&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;h4 class=&quot;ui large header&quot;&gt;
-          &lt;a href=&quot;/blog/customer-loyalty-program-software-for-restaurants&quot; title=&quot;Customer Loyalty Program Software for Restaurants&quot;&gt;Customer Loyalty Program Software for Restaurants&lt;/a&gt;
-          &lt;div class=&quot;sub header ui grey tiny&quot;&gt;10 Dec 2015&lt;/div&gt;
-        &lt;/h4&gt;
-        &lt;div class=&quot;description&quot;&gt;
-          &lt;p&gt;Pegke is a customer loyalty programs for restaurants - as well, which utilizes the Smartphone and Tablet to manage the program; Pegke is the one solution that allows restaurants to create loyalty campaigns enabling them to attract more customers.&lt;/p&gt;
-
-
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&quot;ui column fluid&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;h4 class=&quot;ui large header&quot;&gt;
-          &lt;a href=&quot;/blog/checklist-get-your-customer-loyalty-program-ground&quot; title=&quot;A Checklist to Get Your Customer Loyalty Program off the Ground&quot;&gt;A Checklist to Get Your Customer Loyalty Program off the Ground&lt;/a&gt;
-          &lt;div class=&quot;sub header ui grey tiny&quot;&gt;12 Nov 2015&lt;/div&gt;
-        &lt;/h4&gt;
-        &lt;div class=&quot;description&quot;&gt;
-          &lt;p&gt;Customer Loyalty ought to be a go-to methodology for any small business, yet the fact of the matter is, paying little heed to if the system is computerized or an old-school punch card, little entrepreneurs don’t feel like they have room schedule-wise to tackle more obligation.&lt;/p&gt;
-
-
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&quot;ui column fluid&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;h4 class=&quot;ui large header&quot;&gt;
-          &lt;a href=&quot;/blog/customer-loyalty-whats-happening-around-world&quot; title=&quot;6 Customer Loyalty trends around the World&quot;&gt;6 Customer Loyalty trends around the World&lt;/a&gt;
-          &lt;div class=&quot;sub header ui grey tiny&quot;&gt;10 Nov 2015&lt;/div&gt;
-        &lt;/h4&gt;
-        &lt;div class=&quot;description&quot;&gt;
-          &lt;p&gt;Reward programs are intended to exactly deliver this – be able to track and reward customer behavior. Statistics also indicate that consumer participation in rewards programs is on the rise across all demographic segments. With more customers choosing to do coupon and bargain shopping in the store, the reward programs that provide personalized rewards will prove to be differentiators if implemented with a laser sharp focus on targeted customer segments.&lt;/p&gt;
-
-
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&quot;ui column fluid&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;h4 class=&quot;ui large header&quot;&gt;
-          &lt;a href=&quot;/blog/history-marketing-concept&quot; title=&quot;The History of the Marketing Concept&quot;&gt;The History of the Marketing Concept&lt;/a&gt;
-          &lt;div class=&quot;sub header ui grey tiny&quot;&gt;12 Sep 2015&lt;/div&gt;
-        &lt;/h4&gt;
-        &lt;div class=&quot;description&quot;&gt;
-          &lt;p&gt;Aspects of modern marketing could be found in the practices of early traders and the bazaars of the Middle East…. traders in pre-Hellenic Greece displayed admirable customer focus, and the medieval book trade espoused a range of marketing strategies including selective distribution, celebrity endorsement, sponsorship and test marketing. Marketing functions were manifest in early joint-stock companies such as the East India Company and the Hudson’s Bay Company. While historians, by and large, will view the formation of the East India Company as a British prelude to the eventual conquest of the Indian subcontinent, a modern marketing strategist could view the East India Company, a tad charitably perhaps, as a British tactic to enter new markets with the ultimate aim of becoming the undisputed market leader in Southeast Asia. Such a view has parallels in the last century, and the best example is the invasion and eventual domination of the U.S. consumer electronic market by the Japanese via a seemingly innocuous presence in Europe.&lt;/p&gt;
-
-
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-  &lt;/div&gt;
-  &lt;div class=&quot;five wide column segment&quot;&gt;
-    &lt;div class=&quot;ui text&quot;&gt;
-      &lt;h3&gt;About the pegke blog&lt;/h3&gt;
-      &lt;p&gt;
-        Get all the latest wisdom about managing effective relationships with your customers
-      &lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;ui hidden divider&quot;&gt;&lt;/div&gt;
-
-    &lt;div class=&quot;ui text&quot;&gt;
-      &lt;h3&gt;Recent Posts&lt;/h3&gt;
-      &lt;div class=&quot;ui related-posts ordered list&quot;&gt;
-        
-        &lt;a href=&quot;/blog/how-pegke-customer-loyalty-program-interacts-your-posinventory&quot; class=&quot;item&quot; title=&quot;03 Jan 2016&quot;&gt;How Pegke interacts with your POS/inventory&lt;/a&gt;
-        
-        &lt;a href=&quot;/blog/top-5-customer-loyalty-trends-2016&quot; class=&quot;item&quot; title=&quot;02 Jan 2016&quot;&gt;Top 5 Customer Loyalty Trends of 2016&lt;/a&gt;
-        
-        &lt;a href=&quot;/blog/customer-loyalty-over-holidays&quot; class=&quot;item&quot; title=&quot;21 Dec 2015&quot;&gt;Loyalty over the Holidays&lt;/a&gt;
-        
-        &lt;a href=&quot;/blog/customer-retention-strategies&quot; class=&quot;item&quot; title=&quot;21 Dec 2015&quot;&gt;Customer Retention Strategies&lt;/a&gt;
-        
-        &lt;a href=&quot;/blog/customer-loyalty-program-software-for-restaurants&quot; class=&quot;item&quot; title=&quot;10 Dec 2015&quot;&gt;Customer Loyalty Program Software for Restaurants&lt;/a&gt;
-        
-        &lt;a href=&quot;/blog/checklist-get-your-customer-loyalty-program-ground&quot; class=&quot;item&quot; title=&quot;12 Nov 2015&quot;&gt;A Checklist to Get Your Customer Loyalty Program off the Ground&lt;/a&gt;
-        
-        &lt;a href=&quot;/blog/customer-loyalty-whats-happening-around-world&quot; class=&quot;item&quot; title=&quot;10 Nov 2015&quot;&gt;6 Customer Loyalty trends around the World&lt;/a&gt;
-        
-        &lt;a href=&quot;/blog/history-marketing-concept&quot; class=&quot;item&quot; title=&quot;12 Sep 2015&quot;&gt;The History of the Marketing Concept&lt;/a&gt;
-        
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;script type=&quot;text/javascript&quot; src=&quot;//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=&#39;EMAIL&#39;;ftypes[0]=&#39;email&#39;;fnames[1]=&#39;FNAME&#39;;ftypes[1]=&#39;text&#39;;fnames[2]=&#39;LNAME&#39;;ftypes[2]=&#39;text&#39;;}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script&gt;
-
-&lt;h4 class=&quot;ui horizontal divider header&quot;&gt;
-  Subscribe
-&lt;/h4&gt;
-&lt;div class=&quot;subscribe&quot;&gt;
-  &lt;form action=&quot;//pegke.us9.list-manage.com/subscribe/post?u=49c28e4c02bbc2d7dfd64815e&amp;amp;id=20b2bd793b&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot;&gt;
-    &lt;div class=&quot;ui fluid action input&quot;&gt;
-      &lt;input id=&quot;mc-email&quot; type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email...&quot; required=&quot;&quot; /&gt;
-      &lt;input type=&quot;text&quot; class=&quot;ohidden&quot; name=&quot;b_49c28e4c02bbc2d7dfd64815e_20b2bd793b&quot; tabindex=&quot;-1&quot; value=&quot;&quot; id=&quot;40&quot; /&gt;
-      &lt;button class=&quot;ui button&quot; type=&quot;submit&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot;&gt;Subscribe&lt;/button&gt;
-    &lt;/div&gt;
-    &lt;label for=&quot;mc-email&quot; class=&quot;error-message success-message&quot;&gt;&lt;/label&gt;
-  &lt;/form&gt;
-  &lt;div id=&quot;mce-responses&quot; class=&quot;clear&quot;&gt;
-		&lt;div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-
-
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 20 Nov 2015 00:00:00 +0530</pubDate>
-        <link>https://pegke.com/blog/</link>
-        <guid isPermaLink="true">https://pegke.com/blog/</guid>
-        
-        
-        <category>blogs</category>
-        
-      </item>
-    
-      <item>
         <title>Customer Loyalty Program</title>
         <description>&lt;h2 id=&quot;why-a-customer-loyalty-program-&quot;&gt;Why a Customer Loyalty Program ?&lt;/h2&gt;
 
@@ -1380,6 +1242,175 @@ competitiveness.&lt;/p&gt;
       </item>
     
       <item>
+        <title>Terms and Conditions</title>
+        <description>&lt;h2 id=&quot;general&quot;&gt;1. General&lt;/h2&gt;
+&lt;p&gt;During the length of the Merchant Agreement, Pegke Rewards will provide the Pegke Rewards services and/or programs (collectively, “Pegke Rewards Programs”) described in the Merchant Agreement separately executed by you, together with all exhibits attached thereto (the “Merchant Agreement”). In the event of any inconsistency among terms and conditions of the Merchant Agreement and these Terms and Conditions (collectively, sometimes referred to herein as the “Agreement”), the order of control shall be: (i) these Terms and Conditions, (ii) the Merchant Agreement, and (iii) any other exhibits, addenda or attachments to these Terms and Conditions including any links contained in the Merchant Agreement or these Terms and Conditions, which are incorporated by reference herein. Any capitalized terms that are not defined in these Terms and Conditions have the meanings ascribed to them in the Merchant Agreement. For purposes of clarity, these Terms and Conditions are incorporated by reference into the Merchant Agreement executed by you, and, together with the Merchant Agreement and all attachments thereto, govern your use of all Pegke Rewards Programs and services.&lt;/p&gt;
+
+&lt;h2 id=&quot;intellectual-property-rights&quot;&gt;2. Intellectual Property Rights.&lt;/h2&gt;
+&lt;p&gt;(i) Pegke Rewards is the sole and exclusive owner of all right, title and interest in and to any data provided to Pegke Rewards by your customers or any end user to Pegke Rewards in connection with the Pegke Rewards Programs, including without limitation all e-mail and/or other contact information (“Customer Data”). As such, you shall not, unless the applicable customer has separately taken all steps necessary to opt in to provide contact information to you, be provided with or otherwise have access to the Customer Data.&lt;/p&gt;
+
+&lt;p&gt;(ii) Pegke Rewards owns all right, title and interest in and to the Pegke Rewards Programs (which include, for purposes of clarity, all software and/or mobile applications related thereto) including, without limitation, any intellectual property rights and any improvements, modifications, enhancements or refinements thereto. Except as set forth in the Agreement, all rights not expressly granted to you are reserved. You agree not to decipher, decompile, disassemble, reconstruct, translate, reverse engineer, or discover any of the Pegke Rewards Programs, intellectual property or ideas, algorithms, file formats, programming, or interoperability interfaces underlying or such intellectual property.&lt;/p&gt;
+
+&lt;p&gt;(iii) Pegke Rewards hereby grants to you a limited, non-transferable, non-exclusive, revocable license to access and use Pegke Rewards’s hosted Merchant Web Portal (the “Portal”) for internal business purposes so long as your account with Pegke Rewards remains current and active. If Pegke Rewards provides you with a password to access the Portal, you are solely responsible for protecting the password and for any authorized or unauthorized use made of the password. The Portal, and all source code, object code, software, copyrights and other intellectual property associated therewith, are and shall remain the sole and exclusive property of Pegke Rewards. You shall refrain from permitting any third party to use your password or otherwise access the Portal. Pegke Rewards shall have the right to terminate the license granted hereby immediately in the event that you have breached any terms or conditions set forth in the Agreement or your Pegke Rewards account is otherwise terminated for any reason.&lt;/p&gt;
+
+&lt;p&gt;(iv) Without limiting any of Pegke Rewards’s rights set forth in the Agreement, Pegke Rewards reserves the right, in its sole discretion but without any obligation on its part, to reject, remove, delete and/or cancel any information or content displayed or posted on any tablet, the Pegke Rewards website, any portion of the Pegke Rewards Program, and/or within any print materials, including without limitation any information and/or content that, in Pegke Rewards’s view, contains content or links which do not meet Pegke Rewards’s specifications or requirements. In addition, Pegke Rewards shall be entitled, in its sole discretion and without notice to any party, to redesign and/or modify all or any portion of the Pegke Rewards Program (including without limitation any mobile application and/or software) at any time.&lt;/p&gt;
+
+&lt;h2 id=&quot;restrictions&quot;&gt;3. Restrictions.&lt;/h2&gt;
+&lt;p&gt;You: (i) will use the Pegke Rewards Programs solely for your internal business purposes; and (ii) will not, for yourself, any of your affiliates or any third party (a) sell, rent, lease, license or sublicense, assign, distribute, or transfer the Pegke Rewards Programs, (b) modify, change, alter, create derivative works of, decipher, decompile, disassemble, reconstruct, translate, reverse engineer, or discover any source code of the underlying ideas, algorithms, file formats, programming, or interoperability interfaces of the Pegke Rewards Programs, (c) copy any tangible versions of the Pegke Rewards Programs, or (d) remove from any of the Pegke Rewards Programs any language or designation indicating the confidential nature thereof or the proprietary rights of Pegke Rewards. In addition, you will not export, re-export or permit any third party to export or re-export, directly or indirectly, the Pegke Rewards Programs where such export or re-export is prohibited by applicable law without appropriate licenses and clearances. Pegke Rewards retains the right, in its sole discretion but without any obligation on the part of Pegke Rewards to monitor or evaluate any communications, to approve, modify or refuse any Pegke Rewards-related communications or proposed communications or messages to your customers or any Pegke Rewards end users.&lt;/p&gt;
+
+&lt;h2 id=&quot;fees-pricing-and-payment-terms-taxes&quot;&gt;4. Fees; Pricing and Payment Terms; Taxes.&lt;/h2&gt;
+&lt;p&gt;(i) Pegke Rewards’s current fees for the Pegke Rewards Programs and its services are set forth in the Merchant Agreement. Pegke Rewards reserves the right to amend the fees payable for the Pegke Rewards Programs at any time upon thirty (30) days’ prior notice to you; provided, however, that such amendment to the fees will not be applicable until the beginning of the next Subscription Period.&lt;/p&gt;
+
+&lt;p&gt;(ii) When you provide your payment information to Pegke Rewards, you are providing Pegke Rewards with an authorization to process any and all payments as outlined in this Agreement. In certain instances, the payment processing may not occur immediately, and your payment may show as “pending” during this time period. In addition, Pegke Rewards may request an authorization for the amount of your anticipated transaction in advance and may estimate the final value of the transaction, which may be more than the amount of the actual transaction. Pegke Rewards will release any funds authorized in excess of the amount of the actual transaction at the time the transaction settles.&lt;/p&gt;
+
+&lt;p&gt;(iii) You will be responsible for any sales, use, value-added or import taxes, customs duties or similar taxes assessed in accordance with applicable law with respect to the provision of the Pegke Rewards Programs.&lt;/p&gt;
+
+&lt;p&gt;(iv) Notwithstanding anything herein to the contrary, Pegke Rewards, in its sole discretion, may suspend or terminate the Agreement and corresponding access and right to use all or any portion of the Pegke Rewards Programs, at any time, upon electronic or other notice to you, if you have not paid all amounts due on or before the payment due date, or for any other breaches of the Merchant Agreement, these Terms and Conditions, or any other exhibits, addenda or attachments to these Terms and Conditions including any links contained in the Merchant Agreement or these Terms and Conditions, which are incorporated by reference herein. You are responsible for amounts that remain outstanding as of the date of such termination including early cancellation fees. You agree to pay reasonable attorneys’ fees and court costs incurred by Pegke Rewards to collect any unpaid amounts owed by you.&lt;/p&gt;
+
+&lt;p&gt;(v) Pegke Rewards will repair or replace damaged tablets due to normal wear and year or any hardware/software malfunction at no cost to any merchant in good standing. A merchant in good standing is primarily defined as having no outstanding balance due to Pegke Rewards, but may be defined by other criteria as specified by Pegke Rewards.&lt;/p&gt;
+
+&lt;p&gt;(vi) Should your Merchant Agreement indicate a seasonal term, your contract will be extended by the number of months which billing is paused for seasonality, as indicated on the Agreement. All Pegke Rewards equipment will remain the responsibility of the merchant during entire term of the Agreement.&lt;/p&gt;
+
+&lt;h2 id=&quot;term-termination-survival&quot;&gt;5. Term; Termination; Survival.&lt;/h2&gt;
+&lt;p&gt;The Pegke Rewards solution term, as further described below, is effective upon the earlier of the arrival date or estimated arrival date of the solution as stated within the Merchant Agreement. All other subsequent changes or modifications to the merchant agreement are effective upon the completion of the merchant purchase order. You may amend your contract to include additional Pegke Rewards features through your Web Command Center. When you make changes through your Web Command Center, you are providing explicit authorization for Pegke Rewards to process payment on your existing Pegke Rewards account and method of payment without any further authorization necessary from you.&lt;/p&gt;
+
+&lt;p&gt;The Agreement will remain in full force specified in the Merchant Agreement. At the end of any Subscription Plan, unless you select a new Subscription Plan, your Subscription Plan will automatically renew on a month–to–month Subscription Plan at the then-current rates. Effective January 1, 2015, new agreements and/or subscriptions may automatically renew for successive 1-year terms upon expiration of the initial term of any Subscription Plan at the then-current standard rates until such time as either party provides written notice of termination to the other party, in accordance with terms below. Current fees will be charged to the payment method on file unless Pegke Rewards is otherwise notified of a cancellation in writing. Although Pegke Rewards may choose to send a reminder email prior to charging a customer for a renewal fee, Pegke Rewards is not responsible for notifying a customer of this automated renewal.&lt;/p&gt;
+
+&lt;p&gt;A merchant may cancel its subscription, thereby terminating this Agreement, solely in accordance with the following cancellation policies:&lt;/p&gt;
+
+&lt;p&gt;Money Back Guarantee – If your Merchant Agreement specifies that you are entitled to a “30 day Money Back Guarantee” you shall, by providing written termination notice to Pegke Rewards within thirty (30) days of the Installation Date, be entitled to have the Pegke Rewards Kit uninstalled. In order to qualify for your Money–Back–Guarantee, we simply require that you speak to your Merchant Success Manager to set up your program and enroll a minimum of 5 customers during the Money–Back–Guarantee period. If you do not meet these qualifications you will be charged a restocking fee of $50 upon cancellation. Within thirty (30) days of Pegke Rewards’s receipt of the Pegke Rewards Kit, Pegke Rewards will refund you any money collected for the initial monthly subscription fee in the same manner in which the initial fee was paid. All Onboarding, Activation, or Setup fees are non-refundable. If, after thirty (30) days from the Installation Date and prior to the subsequent Subscription Period, you desire to terminate the Pegke Rewards Program, you agree to pay an early cancellation fee equal to six (6) months of your monthly subscription fee, as well as a $50 restocking fee via the credit card or ACH on file with Pegke Rewards. If you subscribe to a variable subscription fee plan, your early cancellation fee is equal to (6) months at the most recent monthly billed rate along with a $50 restocking fee.&lt;/p&gt;
+
+&lt;p&gt;Renewal – At the end of any Subscription Plan, unless you select a new Subscription plan, your Subscription Plan will automatically be renewed on an annual or monthly (as applicable) basis at the then-current standard rates. Current fees will be charged to the credit card or ACH on file unless Pegke Rewards is otherwise notified of a cancellation in writing. Customers renewed on a monthly basis must provide written cancellation notice at least sixty (60) days prior to the beginning of the next monthly or annual term (as applicable). Customers renewed on an annual basis must provide written cancellation notice sixty (60) days prior to or within the first thirty (30) days of their renewal period. Although Pegke Rewards may choose to send a reminder email prior to charging a customer for a renewal fee, Pegke Rewards is not responsible for notifying a customer of this automated renewal.&lt;/p&gt;
+
+&lt;p&gt;Subscription Cancellation within the Contract Term – Customers enrolled in Monthly or Annual subscription plans shall provide at least sixty (60) days’ written cancellation notice. If, prior to the subsequent Subscription Period, you desire to terminate the Pegke Rewards Program, You agree to pay an early cancellation fee equal to six (6) months of your monthly subscription fee, as well as a $50 restocking fee via the credit card or ACH on file with Pegke Rewards. If you subscribe to a variable subscription fee plan, your early cancellation fee is equal to six (6) months at the most recent monthly billed rate along with a $50 restocking fee. You will not be entitled to any refund of any pre-paid or prior subscription payments.&lt;/p&gt;
+
+&lt;p&gt;Other Events – Each party shall have the right to terminate the Agreement upon written notice to the other party: (i) upon the institution of insolvency, receivership or bankruptcy proceedings or any other proceedings for the settlement of debts of the other party that is not otherwise dismissed within sixty (60) days of such institution; (ii) upon the making of an assignment for the benefit of creditors by the other party; or (iii) upon the dissolution of the other party. Notwithstanding the foregoing, Pegke Rewards may terminate the Agreement and/or your access to one or all Pegke Rewards Programs in the event you fail to remain current in all fees due and owing to Pegke Rewards or in the event you breach any of your obligations under the Agreement. Pegke Rewards will cease to collect the monthly subscription fee at the point in time in which Pegke Rewards has received your returned Pegke Rewards Kit.&lt;/p&gt;
+
+&lt;p&gt;In the event of any termination of the Agreement or any Pegke Rewards Program, Pegke Rewards shall be entitled to send e-mail and/or other communications to some or all of your loyalty program members, notifying each such member of your termination of the Pegke Rewards Program. In addition to the foregoing permissible e-mail, Pegke Rewards shall be entitled to take other actions, at its discretion, to assist your loyalty program members in protecting the points earned within the Pegke Rewards Program and providing them an opportunity to redeem points earned.&lt;/p&gt;
+
+&lt;p&gt;In addition, all items in the Pegke Rewards Kit must be returned to Pegke Rewards in specified return packaging provided by Pegke Rewards. If you were not previously provided with specified return packaging, Pegke Rewards will provide you with specified return packaging at no cost to you, otherwise you will be charged for packaging materials. You are responsible for all return shipping charges and for any damage incurred in the shipping process. If any item in the Pegke Rewards Kit is not returned, Pegke Rewards will charge you for the cost of the item not returned. Pegke Rewards will prorate the last monthly subscription fee based on the date the Pegke Rewards Kit is received by Pegke Rewards. You may be required to fill out an exit survey in order to complete any cancellation request. Pegke Rewards may refuse to accept the return of its equipment until the exit survey is completed. If You do not complete the exit survey in a timely fashion, You may be charged a fee for missing equipment until the exit survey is completed. Any provision of the Agreement which contemplates performance or observance subsequent to any termination or expiration of the Agreement shall survive any termination or expiration of the Agreement and continue in full force and effect. Upon expiration or termination of this agreement all items in the Pegke Rewards Kit must be returned to Pegke Rewards within 14 days. If the tablet is lost or not returned within 14 days, you will be charged a penalty fee to cover the tablet equipment costs as well as a non–refundable late fee.&lt;/p&gt;
+
+&lt;h2 id=&quot;representations-and-warranties-disclaimer&quot;&gt;6. Representations and Warranties; Disclaimer.&lt;/h2&gt;
+&lt;p&gt;(i) Pegke Rewards warrants that Pegke Rewards has the authority to enter into this Agreement.&lt;/p&gt;
+
+&lt;p&gt;(ii) You represent, warrant and covenant to Pegke Rewards that: (a) you have the authority to enter into this Agreement; (b) you will take proper care of the Pegke Rewards Kit and/or all equipment provided by Pegke Rewards to you and maintain all such equipment in good working order; (c) you will only use the Pegke Rewards Programs for lawful purposes and will not violate any law of any country or the intellectual property rights of any third party; and (d) you will not use any Pegke Rewards Program to send any e-mail or other communications which violate any applicable regulation, rule, industry protocol or law (including, without limitation, the CAN-SPAM Act).&lt;/p&gt;
+
+&lt;p&gt;(iii) EXCEPT AS SPECIFICALLY PROVIDED IN THIS SECTION 6, Pegke Rewards EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF QUALITY, ACCURACY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN ADDITION, Pegke Rewards DOES NOT MAKE ANY REPRESENTATIONS OR WARRANTIES AS TO ANY MINIMUM LEVEL OF UPTIME FOR THE Pegke Rewards PROGRAM OR THE RESULTS THAT YOU MAY ACHIEVE ON ACCOUNT USING ANY Pegke Rewards PROGRAM OR SERVICE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, YOU EXPRESSLY AGREE THAT THE USE OF Pegke Rewards PROGRAMS OR SERVICES AND THE INTERNET IS AT YOUR SOLE RISK. Pegke Rewards PROGRAMS AND SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS, AND UNDER NO CIRCUMSTANCES SHALL Pegke Rewards BE LIABLE TO YOU OR ANY OTHER PARTY ON ACCOUNT OF ANY DOWNTIME WITHIN ANY Pegke Rewards PLATFORM OR APPLICATION. YOU HEREBY ACKNOWLEDGE THAT YOU ARE SOLELY RESPONSIBLE FOR OBTAINING AND/OR PROVIDING INTERNET SERVICE TO ALL LOCATIONS IN WHICH THE Pegke Rewards PROGRAMS ARE TO OPERATE.&lt;/p&gt;
+
+&lt;h2 id=&quot;confidential-information&quot;&gt;7. Confidential Information.&lt;/h2&gt;
+&lt;p&gt;Any information that a receiving party knows or has reason to know (either because such information is marked or otherwise identified by the disclosing party orally or in writing as confidential or proprietary, has commercial value, or because it is not generally known in the relevant trade or industry) is “Confidential Information” of the disclosing party and will remain the sole property of the disclosing party. Such Confidential Information includes but is not limited to data, information (including personally identifiable information), ideas, materials, specifications, procedures, schedules, software, technical processes and formulas, source code, product designs, sales, cost and other unpublished financial information, product and business plans, advertising revenues, usage rates, advertising relationships, projections, marketing data and other similar information provided by a party. For avoidance of doubt, Customer Data shall be deemed Confidential Information of Pegke Rewards. Each party agrees that it will not disclose, use, modify, copy, reproduce or otherwise divulge such Confidential Information to any third party without the prior written approval of the disclosing party except that the receiving party shall have the right to disclose such Confidential Information to the extent required by applicable law or to the directors, officers or employees of the receiving party who have a need to know such Confidential Information in order to perform its obligations under the Agreement and to the extent such directors, officers or employees are subject to obligations of confidentiality and non-disclosure that are substantially similar to the obligations set forth in the Agreement. The prohibitions contained in this Section will not apply to information (i) already lawfully known to the receiving party prior to disclosure by the disclosing party; (ii) independently developed by the receiving party without access to or use of the disclosing party’s Confidential Information; (iii) disclosed in published materials; (iv) generally known to the public; or (v) lawfully obtained from any third party. In addition, a party will not be considered to have breached its obligations under the Agreement to the extent Confidential Information is required to be disclosed by any governmental authority, provided that, to the extent legally practicable, the receiving party advises the disclosing party prior to making such disclosure in order that the disclosing party may object to such disclosure, take action to ensure confidential treatment of the Confidential Information, or take such other action as it considers appropriate to protect the Confidential Information.&lt;/p&gt;
+
+&lt;h2 id=&quot;dispute-resolution-governing-law&quot;&gt;8. Dispute Resolution; Governing Law.&lt;/h2&gt;
+&lt;p&gt;In the event of a reward dispute or mistake between a Merchant and User, Pegke Rewards may in its sole discretion and without liability of any kind unilaterally make adjustments to User reward points (it being understood that Pegke Rewards shall not be (i) obligated to make any such adjustment or otherwise get involved with or provide any assistance towards resolving any such dispute, or (ii) be liable to any party for any damages, expenses or liabilities arising out of any such dispute). To the extent any disputes arise under the Agreement or otherwise between the parties, the parties will first attempt in good faith to resolve their dispute informally. If any dispute arises out of or in relation to this Agreement which cannot be amicably resolved between the Parties by mutual consultation the jurisdiction of the Court shall be any court in Thiruvananthapuram (or Trivandrum), Kerala, India.&lt;/p&gt;
+
+&lt;h2 id=&quot;indemnification&quot;&gt;9. Indemnification.&lt;/h2&gt;
+&lt;p&gt;You will defend, indemnify, and hold Pegke Rewards and its affiliates and their respective directors, officers, employees, agents and representatives harmless from and against any third party suit, proceeding, assertion against any damages, judgments, liability, costs and expenses (including without limitation any reasonable attorneys’ fees) incurred arising from your breach of this Agreement, your negligence or misconduct, any dispute you may have with any other party in connection with any Pegke Rewards Program or otherwise related in any way to any Pegke Rewards Program, your unauthorized use or misuse of the Pegke Rewards Programs or any unauthorized combination of any Pegke Rewards Program with any hardware, software, products, data or other materials not specified or provided by Pegke Rewards.&lt;/p&gt;
+
+&lt;h2 id=&quot;limitation-of-liability&quot;&gt;10. Limitation of Liability.&lt;/h2&gt;
+&lt;p&gt;Pegke Rewards’s aggregate liability for all claims (including claims for indemnification of third party damages) arising out of the Agreement, whether in contract, tort or otherwise, will not exceed the amount of fees paid by you to Pegke Rewards under the Agreement during the twelve (12) months preceding the date on which the applicable claim occurred. To the maximum extent permitted by applicable law, in no event will Pegke Rewards be liable for any loss of business profits, business interruption, loss of data or any special, indirect, exemplary, incidental or consequential damages arising from or in relation to the Agreement or the use of the Services or any Pegke Rewards Program, however caused and regardless of theory of liability. In addition, Pegke Rewards will not be liable for damage (physical or otherwise) incurred by you upon any asset or property from the installation or removal of any Pegke Rewards product or add-on in-store and will not be responsible for replacement or cost of repair if damages occur. This limitation will apply even if such damages were foreseeable and you have been advised or are aware of the possibility of such damages.&lt;/p&gt;
+
+&lt;h2 id=&quot;notice&quot;&gt;11. Notice.&lt;/h2&gt;
+&lt;p&gt;Except where explicitly provided otherwise herein, any notice required or permitted hereunder will be delivered to the contact person listed on the Order Information as follows (with notice deemed given as indicated): (i) by personal delivery when delivered personally; (ii) by established overnight courier upon written verification of receipt; (iii) by facsimile transmission when receipt is confirmed orally; (iv) by certified or registered mail, return receipt requested, upon verification of receipt; or (v) by electronic delivery when receipt is confirmed orally.&lt;/p&gt;
+
+&lt;h2 id=&quot;assignment&quot;&gt;12. Assignment.&lt;/h2&gt;
+&lt;p&gt;You may not, without the prior written consent of Pegke Rewards, assign the Agreement, in whole or in part, either voluntarily or by operation of law, and any attempt to do so will be a material default of the Agreement and will be void; provided, however, that in the event of a sale of substantially all of your assets or equity to a third party or any merger of your entity with an into a third party, this Agreement shall be deemed, without any further action on the part of any party, to automatically be assigned to and assumed by the acquirer in such transaction and as such, shall be binding on such acquirer. The Agreement will be binding upon and will inure to the benefit of the respective parties hereto, their respective successors in interest, legal representatives, heirs and assigns.&lt;/p&gt;
+
+&lt;h2 id=&quot;no-third-party-beneficiaries&quot;&gt;13. No Third Party Beneficiaries.&lt;/h2&gt;
+&lt;p&gt;The Agreement is solely for the benefit of the parties and their successors and permitted assigns, and does not confer any rights or remedies on any other person or entity.&lt;/p&gt;
+
+&lt;h2 id=&quot;amendment-waiver&quot;&gt;14. Amendment; Waiver.&lt;/h2&gt;
+&lt;p&gt;This Agreement may be changed by Pegke Rewards upon posting an updated version of the Agreement at Pegke Rewards’s website and/or within the applicable Pegke Rewards Program, any such change to become effective 10 business days after posting such updated version of the Agreement as described above. The failure of either party to exercise or enforce any of its rights under the Agreement will not act as a waiver of subsequent breaches and the waiver of any breach will not act as a waiver of subsequent breaches.&lt;/p&gt;
+
+&lt;h2 id=&quot;severability&quot;&gt;15. Severability.&lt;/h2&gt;
+&lt;p&gt;If any provision of the Agreement is held by a court or other tribunal of competent jurisdiction to be unenforceable, that provision will be enforced to the maximum extent permissible under applicable law and the other provisions of the Agreement will remain in full force and effect.&lt;/p&gt;
+
+&lt;h2 id=&quot;force-majeure&quot;&gt;16. Force Majeure.&lt;/h2&gt;
+&lt;p&gt;Neither party shall be liable to the other if such party is prevented from performing any of its obligations under the Agreement (excluding fee payment obligations) due to any cause beyond the party’s reasonable control including, without limitation, an act of God, fire, flood, explosion, terrorism, war, embargo, government regulation, civil or military authority, acts or omissions of carriers, transmitters, providers, or acts of vandals, or hackers. The time for that party’s performance will be extended for the period of the delay or failure to perform due to such occurrence, except that you will not be excused from the payment of any sums of money owed by you to Pegke Rewards provided prior to the force majeure event.&lt;/p&gt;
+
+&lt;h2 id=&quot;independent-contractor&quot;&gt;17. Independent Contractor.&lt;/h2&gt;
+&lt;p&gt;The Agreement will not be construed as creating or constituting a partnership, joint venture, or agency relationship between the parties. Neither party will have the power to bind the other or incur obligations on the other’s behalf without the other’s prior written consent.&lt;/p&gt;
+
+&lt;h2 id=&quot;compliance-with-laws&quot;&gt;18. Compliance with Laws.&lt;/h2&gt;
+&lt;p&gt;Each party will comply with all applicable laws, regulations, and ordinances relating to their performance hereunder.&lt;/p&gt;
+
+&lt;h2 id=&quot;entire-agreement&quot;&gt;19. Entire Agreement.&lt;/h2&gt;
+&lt;p&gt;The Agreement (including, without limitation, the Merchant Agreement and these Merchant Terms) constitute the entire agreement between Pegke Rewards and you with respect to the subject matter hereof and all prior oral or written agreements, representations or statements with respect to such subject matter are superseded hereby.&lt;/p&gt;
+
+&lt;h2 id=&quot;goal-gradient-loyalty-participation&quot;&gt;20. Goal Gradient Loyalty Participation&lt;/h2&gt;
+&lt;p&gt;Pegke Rewards may, at its sole discretion from time to time, elect to make point adjustments for first-time member visits (such as, by way of example, offering members the opportunity to earn extra points in connection with the first visit to a given Merchant location). These adjustments are intended to encourage greater follow-up participation to your program. This feature is automatically enabled with the onboarding of your loyalty program; provided, however, that you may elect to opt out of this program by providing written notice of such opt-out to Pegke Rewards.&lt;/p&gt;
+
+&lt;h2 id=&quot;campaign-terms-of-use&quot;&gt;21. Campaign Terms of Use&lt;/h2&gt;
+&lt;p&gt;The following terms shall, in addition to all of the other terms set forth in this Agreement, govern your use of Pegke Rewards’s “Campaign” platform (the “Campaign Platform”), which, at a general level, allows you to communicate with Pegke Rewards members.&lt;/p&gt;
+
+&lt;p&gt;General Rules
+You shall, as a condition to making any use of the Campaign Platform, be required to follow these rules:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You won’t send Spam! While you are responsible for making yourself of aware of current anti-SPAM and similar regulations that may be in effect from time to time, as a general rule, you should assume that if you send people mass email without their permission, you’re spamming.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You won’t violate Pegke Rewards’s Acceptable Use guidelines, established below, as they may be in effect from time to time, which is part of this Agreement. If you violate any of these rules, Pegke Rewards, in addition to any other rights or remedies that Pegke Rewards may have hereunder or otherwise, may suspend or terminate your account.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the event you have purchased a subscription which allows unlimited use of Campaign Platform, to the extent that Pegke Rewards, in its sole discretion, determines that you are abusing the Campaign Platform, violating any law or regulation, violating the CAN-SPAM Act or any other e-mail regulation or otherwise abusing or misusing the Campaign Platform in any way, Pegke Rewards shall, in addition to any other remedies available to Pegke Rewards in this Agreement and/or at law, be entitled to unilaterally adjust your allowed use of the product.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Membership Status Programs
+You hereby agree and acknowledge that Pegke Rewards may, from time to time, offer and administer a program currently referred to as the “Membership Status” program. Pursuant to such program, Pegke Rewards members that are sufficiently active using the Pegke Rewards Programs can achieve various levels of status. Pegke Rewards shall have sole discretion in determining the activity required to obtain each of the status levels within the Membership Status program from time to time. Pegke Rewards members that have achieved any such level of status may be entitled to receive discounts on points and/or other benefits across the entire Pegke Rewards network, including without limitation at each of your locations. You hereby agree to honor all such discounts and recognize such status, except to the extent you have opted out of participation in the Pegke Rewards Membership Status program by written notice.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;compliance-with-laws-1&quot;&gt;Compliance with Laws&lt;/h4&gt;
+&lt;p&gt;You represent and warrant that your use of the Campaign Platform will comply with all applicable laws and regulations. You are responsible for determining whether Pegke Rewards’s services are suitable for you to use in light of any regulations such HIPAA, GLB, EU Data Privacy Laws and/or other laws. If you are subject to regulations (such as HIPAA) and you use the Campaign Platform or any other Pegke Rewards service, then Pegke Rewards will not be liable if any such service does not meet those requirements.&lt;/p&gt;
+
+&lt;h4 id=&quot;acceptable-use&quot;&gt;Acceptable Use&lt;/h4&gt;
+&lt;p&gt;You shall refrain from using the Campaign Platform to send anything offensive, to promote anything illegal, or to harass anyone. Not in limitation of the foregoing, you may not send:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pornography or other sexually explicit Emails&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Emails offering to sell illegal goods or services&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Emails that violate CAN-SPAM Laws or any other applicable laws or regulations&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Acceptable Use – Prohibited Actions
+Pegke Rewards works hard to keep its system clean, but Pegke Rewards also counts on its customers to pitch in. As such, you may not:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Send Spam (as noted above).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Share your password.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use any of the Campaign Platform to create a competing product.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Import or incorporate any of this information into any lists, emails or uploads to our servers: Social Security numbers, passwords, security credentials, or sensitive personal information of any kind.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Send any messages through the Campaign Platform that are not appropriate for its intended use.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use an outside unsubscribe process.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2015 00:00:00 +0530</pubDate>
+        <link>https://pegke.com/about/terms-conditions</link>
+        <guid isPermaLink="true">https://pegke.com/about/terms-conditions</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Privacy Policy</title>
         <description>&lt;div class=&quot;ui text pegke&quot;&gt;
 
@@ -1501,107 +1532,6 @@ may be set forth in Pegke’s Terms of Use from time to time.&lt;/p&gt;
         <pubDate>Sun, 15 Nov 2015 00:00:00 +0530</pubDate>
         <link>https://pegke.com/about/privacy-policy</link>
         <guid isPermaLink="true">https://pegke.com/about/privacy-policy</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>About Us</title>
-        <description>&lt;div class=&quot;ui grid stackable&quot;&gt;
-
-  &lt;div class=&quot;column ten wide&quot;&gt;
-    &lt;h3 class=&quot;ui header&quot;&gt;
-      Everything your Business need to create a Successful Loyalty Program and
-      build Customer Relationships
-      &lt;br /&gt;
-      &lt;div class=&quot;sub header&quot;&gt;measuring how successfully your marketing
-        strategies are turning out&lt;/div&gt;
-      &lt;/h3&gt;
-
-      &lt;div class=&quot;ui divider hidden&quot;&gt;&lt;/div&gt;
-      &lt;blockquote class=&quot;positive message ui icon&quot;&gt;
-        &lt;i class=&quot;gift small icon&quot;&gt;&lt;/i&gt;
-        Customer Loyalty &amp;amp; Retention Management Software, which integrates with
-        merchant POS systems to give consumers a single identity to earn
-        business-specific rewards
-      &lt;/blockquote&gt;
-      &lt;div class=&quot;ui divider hidden&quot;&gt;&lt;/div&gt;
-
-      &lt;p&gt;
-        &lt;dfn&gt;&lt;abbr title=&quot;Customer Loyalty &amp;amp; Retention Management Software&quot;&gt;Pegke Rewards &amp;#8482;&lt;/abbr&gt;&lt;/dfn&gt; helps in measuring how successfully your marketing strategies are
-        turning out to be. How often the customers are revisiting the store
-        and what drives them the most. When it comes to marketing we have a
-        built in platform for merchants to target their prospective customers
-        based on geographical area as well as their purchase interest.
-      &lt;/p&gt;
-      &lt;p&gt;
-        We are proud to be the fastest growing provider of mobile-based loyalty
-        and rewards programs in the world.
-      &lt;/p&gt;
-      &lt;p&gt;
-        &lt;a href=&quot;mailto:hello@pegke.com&quot;&gt;Email us&lt;/a&gt; and we&#39;ll get back to you right away.
-      &lt;/p&gt;
-      &lt;h3 class=&quot;ui header small&quot;&gt;What we do&lt;/h3&gt;
-      &lt;p&gt;
-        We help businesses understand, plan, design and optimise their customer
-        journeys by utilizing various stratergies including and not limited to
-        Customer Loaylty, Brand reputation and Social Media Management.
-      &lt;/p&gt;
-
-      &lt;h4 class=&quot;ui header small&quot;&gt;Vision of Pegke&lt;/h4&gt;
-      &lt;p&gt;
-        Pegke is a platform for medium and large business to connect with their
-        customer through easy to manage customer loyalty programs and provide a
-        clear overview of their customer base with impeccable data insights
-      &lt;/p&gt;
-
-      &lt;h4 class=&quot;ui header smal&quot;&gt;About the Company&lt;/h4&gt;
-      &lt;p&gt;
-        A Technopark Trivandrum based software start up with a fantastic team
-        of professionals who never gets tired with coding, creativity and sharing.
-        This is what &lt;a href=&quot;http://lightrains.com&quot;&gt;Lightrains Tech&lt;/a&gt; is!
-      &lt;/p&gt;
-      &lt;div class=&quot;ui divider hidden&quot;&gt;
-
-      &lt;/div&gt;
-      &lt;h4 class=&quot;ui header small&quot;&gt;
-        &lt;i class=&quot;users icon&quot;&gt;&lt;/i&gt;
-        &lt;div class=&quot;content&quot;&gt;
-          Want to work with us?
-        &lt;/div&gt; &lt;/h4&gt;
-        &lt;p&gt;
-          We&#39;re always on the lookout for talent old and new. Visit our &lt;a href=&quot;/about/careers&quot;&gt;jobs page to see what roles we&#39;re currently looking to fill&lt;/a&gt;.
-        &lt;/p&gt;
-
-      &lt;/div&gt;
-
-      &lt;div class=&quot;column six wide&quot;&gt;
-        &lt;img data-src=&quot;/public/img/team.jpg&quot; alt=&quot;Pegke Team&quot; class=&quot;ui image lazy fluid rounded&quot; /&gt;
-        &lt;h5 class=&quot;ui divider horizontal&quot;&gt;Contact Us&lt;/h5&gt;
-        &lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Organization&quot;&gt;
-  &lt;a itemprop=&quot;url&quot; href=&quot;https://pegke.com&quot;&gt;&lt;div itemprop=&quot;name&quot;&gt;&lt;strong&gt;Pegke Rewards &amp;#8482;&lt;/strong&gt;&lt;/div&gt;
-  &lt;/a&gt;
-  &lt;img src=&quot;https://pegke.com/assets/customer-loyalty-program.png&quot; itemprop=&quot;image&quot; class=&quot;ohidden&quot; alt=&quot;Pegke Loyalty&quot; /&gt;
-  &lt;div itemprop=&quot;address&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/PostalAddress&quot;&gt;
-    &lt;span itemprop=&quot;streetAddress&quot;&gt;G3B, Thejaswini&lt;/span&gt;&lt;br /&gt;
-    &lt;span itemprop=&quot;postOfficeBoxNumber&quot;&gt;Technopark Campus&lt;/span&gt;&lt;br /&gt;
-    &lt;span itemprop=&quot;addressLocality&quot;&gt;Trivandrum&lt;/span&gt;&lt;br /&gt;
-    &lt;span itemprop=&quot;addressRegion&quot;&gt;Kerala&lt;/span&gt; -
-    &lt;span itemprop=&quot;postalCode&quot;&gt;695581&lt;/span&gt;&lt;br /&gt;
-    &lt;span itemprop=&quot;addressCountry&quot;&gt;India&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;
-    &lt;a itemprop=&quot;email&quot; href=&quot;mailto:hello@pegke.com&quot;&gt;hello@pegke.com&lt;/a&gt;&lt;br /&gt;
-    &lt;i class=&quot;in flag&quot;&gt;&lt;/i&gt;&lt;a itemprop=&quot;telephone&quot; href=&quot;tel:+914714000056&quot;&gt;+91 (471) 400-0056&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-        &lt;br /&gt;
-      &lt;/div&gt;
-
-    &lt;/div&gt;
-</description>
-        <pubDate>Sun, 15 Nov 2015 00:00:00 +0530</pubDate>
-        <link>https://pegke.com/about/pegke-loyalty</link>
-        <guid isPermaLink="true">https://pegke.com/about/pegke-loyalty</guid>
         
         
       </item>
