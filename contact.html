@@ -265,6 +265,13 @@
   </style>
 
   <link rel="shortlink" href="http://bit.ly/pegkeweb">
+
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:700" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400italic" />
+<![endif]-->
+
   <link rel="preload" href="/public/img/1.jpg">
 
   <script src="/public/js/head.min.js"></script>
@@ -399,13 +406,13 @@
     <div class="column ten wide">
       <form class="ui form" id="support">
         <div class="field">
-          <input type="text" name="sub" placeholder="Subject - Optional but helpful" />
+          <input type="text" name="sub" placeholder="Subject - Optional but helpful" value="hello there" />
         </div>
         <div class="field">
-          <input type="email" name="email" placeholder="Your Email (required)" />
+          <input type="email" name="email" placeholder="Your Email (required)" value="mymail@fdf.com" />
         </div>
         <div class="field required ">
-          <textarea name="details" placeholder="Details - as much as possible (required)"></textarea>
+          <textarea name="details" placeholder="Details - as much as possible (required)">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </textarea>
         </div>
         <button class="ui button submit positive toggle active" type="submit">Submit</button>
       </form>
@@ -676,7 +683,7 @@ head.ready(function () {
       $.getJSON( "/status.json", function( data ) {
         $('#lstmod').text(dt);
         var items = [];
-        $.each( data, function( key, val) {
+        $.each( data.sstatus, function( key, val) {
 
         items.push( '<div class="item"> \
           <div class="right floated content"> \
@@ -689,6 +696,7 @@ head.ready(function () {
           "class": "ui middle aligned divided list",
           html: items.join( "" )
         }).appendTo( "#pegkestat" );
+        $('#lstmod').html(data.last_mod);
         $('#pegkestat').removeClass('loading');
       });
     }
@@ -831,7 +839,11 @@ head.ready(function () {
   })
   .api({
     method: 'post',
-    action: 'support'
+    action: 'support',
+    dataType: 'jsonp',
+    onResponse: function (response) {
+      console.log(response);
+    }
   });
 
   $('#sg-sup-form')

@@ -265,6 +265,13 @@
   </style>
 
   <link rel="shortlink" href="http://bit.ly/pegkeweb">
+
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:700" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400italic" />
+<![endif]-->
+
   <link rel="preload" href="/public/img/1.jpg">
 
   <script src="/public/js/head.min.js"></script>
@@ -396,7 +403,7 @@
       <i class="checkmark box icon large monitor only"></i>
       <div class="content">
         <div class="header">All Systems Operational #PegkeStat</div>
-        <p>Last updated on: <span id="lstmod">Jan 11, 2016 02:36 PM -0500</span> </p>
+        <p>Last updated on: <span id="lstmod">---</span> </p>
       </div>
     </div>
     <div class="ui divider hidden"></div>
@@ -655,7 +662,7 @@ head.ready(function () {
       $.getJSON( "/status.json", function( data ) {
         $('#lstmod').text(dt);
         var items = [];
-        $.each( data, function( key, val) {
+        $.each( data.sstatus, function( key, val) {
 
         items.push( '<div class="item"> \
           <div class="right floated content"> \
@@ -668,6 +675,7 @@ head.ready(function () {
           "class": "ui middle aligned divided list",
           html: items.join( "" )
         }).appendTo( "#pegkestat" );
+        $('#lstmod').html(data.last_mod);
         $('#pegkestat').removeClass('loading');
       });
     }
@@ -810,7 +818,11 @@ head.ready(function () {
   })
   .api({
     method: 'post',
-    action: 'support'
+    action: 'support',
+    dataType: 'jsonp',
+    onResponse: function (response) {
+      console.log(response);
+    }
   });
 
   $('#sg-sup-form')
