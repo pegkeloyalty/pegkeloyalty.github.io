@@ -5,8 +5,8 @@
     <description>Customer Loyalty &amp;amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards</description>
     <link>https://pegke.com/</link>
     <atom:link href="https://pegke.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jan 2016 11:05:16 +0530</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2016 11:05:16 +0530</lastBuildDate>
+    <pubDate>Mon, 25 Jan 2016 09:40:32 +0530</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2016 09:40:32 +0530</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -19,6 +19,8 @@
 
 &lt;h2 id=&quot;can-spam-act-india&quot;&gt;CAN-SPAM Act India&lt;/h2&gt;
 &lt;p&gt;The impact of spam is clearly widespread. Presently, India lacks a specific anti-spam legislation. In consideration of the swelling growth of spam across the globe and the increasing number of Indian users, it is of utmost urgency that a specific legislation is formulated to tackle the issue.&lt;/p&gt;
+
+&lt;div class=&quot;ui highlight&quot;&gt;Presently, India lacks a specific anti-spam legislation.&lt;/div&gt;
 
 &lt;h3 id=&quot;in-the-future&quot;&gt;In the future&lt;/h3&gt;
 &lt;p&gt;With the issue being debated across multiple levels, some black and white legislation can be expected in near future. Some quarters have already started calling for an amendment of the IT Act. A TRAI (Telecom Regulatory Authority of India) like regulator, which made regulations like “Do Not Disturb” hotlines for spam SMSs and marketing calls, can also be expected, and any violation can be expected to result in penalty. But in all these, what happens to ConstantContact and other companies providing digital marketing solutions?&lt;/p&gt;
@@ -66,13 +68,12 @@ Identify the message as an ad. The law gives you a lot of leeway in how to do th
         <description>&lt;h2 id=&quot;what-is-pegke-customer-loyalty-program&quot;&gt;What is Pegke Customer Loyalty Program&lt;/h2&gt;
 &lt;p&gt;Pegke is an easy to use customer loyalty program or a reward point system, beneficial to both the business and the customer. Businesses drive attention of customers through customer loyalty programs by offering fantastic ways to reward and say thank you to their customers.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-is-a-pos-point-of-sale-&quot;&gt;What is a POS (point of sale) ?&lt;/h2&gt;
-&lt;p&gt;The point of sale (POS) is the time and place where a retail transaction is completed. It is the point at which a customer makes a payment to the merchant in exchange for goods or after provision of a service. At the point of sale, the merchant would prepare an invoice for the customer (which may be a cash register printout) or otherwise calculate the amount owed by the customer and provide options for the customer to make payment. After receiving payment, the merchant will also normally issue a receipt for the transaction, though increasingly a receipt is being dispensed with.&lt;/p&gt;
+&lt;div class=&quot;ui highlight&quot;&gt;The point of sale (POS) is the time and place where a retail transaction is completed. It is the point at which a customer makes a payment to the merchant in exchange for goods or after provision of a service.&lt;/div&gt;
 
 &lt;h2 id=&quot;how-pegke-customer-loyalty-program-integrates-with-your-pos&quot;&gt;How Pegke Customer Loyalty Program integrates with your POS&lt;/h2&gt;
 &lt;p&gt;At Pegke, we have multiple ways of integrating your POS with Pegke cloud platform. Which includes and not limited to API, Coupon Scan and Tablet. Lets take a look at each of them in detail.&lt;/p&gt;
 
-&lt;p class=&quot;ui image fluid lazy&quot;&gt;&lt;img src=&quot;https://pegke.com/sites/default/files/uploads/73209c85a2d2db704b7d0607b8914ecba9408897.jpg&quot; alt=&quot;pegke api&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;ui image fluid lazy&quot;&gt;&lt;img src=&quot;/public/img/pegke-api-workflow.jpg&quot; alt=&quot;pegke api&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Manual Interaction
@@ -130,7 +131,7 @@ One of the super fast method to integrate Pegke with your business if you’re i
   &lt;li&gt;Experiential prizes = greatest effect.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p class=&quot;ui image fluid lazy&quot;&gt;&lt;img src=&quot;https://pegke.com/sites/default/files/uploads/top-5-customer-loyalty-trends-of-2015.jpg&quot; alt=&quot;Customer Loyalty Trends Of 2016&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;ui image fluid lazy&quot;&gt;&lt;img src=&quot;/public/img/top-5-customer-loyalty-trends-of-2016.jpg&quot; alt=&quot;Customer Loyalty Trends Of 2016&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;omni-channel-engagement&quot;&gt;1. Omni-channel Engagement&lt;/h2&gt;
 &lt;p&gt;Customer Loyalty Program venturing past the normal deals limits is one sign that marking has turn out to be more about thoughts than items. Clients have day in and day out access to the brands they cherish through online networking and cell phones. Brands, thusly, have new venues to achieve their center business without needing to envision pedestrian activity or exposures to outbound showcasing promotions.&lt;/p&gt;
@@ -640,7 +641,7 @@ One of the super fast method to integrate Pegke with your business if you’re i
       &lt;p&gt;
         We&#39;ve created a culture that rewards bright, driven, and fun-loving people. We take our work seriously. But ourselves? Not so much.
       &lt;/p&gt;
-      &lt;strong&gt;At Pegke you can...&lt;/strong&gt;
+      &lt;strong&gt;At Pegke Rewards &amp;#8482; you can...&lt;/strong&gt;
       &lt;ul class=&quot;ui list&quot;&gt;
         &lt;li class=&quot;item&quot;&gt;Power Customer Success&lt;/li&gt;
         &lt;li class=&quot;item&quot;&gt;Solve Meaningful Problems&lt;/li&gt;
