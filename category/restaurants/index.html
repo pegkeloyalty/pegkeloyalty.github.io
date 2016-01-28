@@ -7,7 +7,7 @@
 
   <title>
   Category: Restaurants
-  Customer Loyalty &amp; Retention Management Software &#8226; Pegke Rewards &#8482;</title>
+  Customer Loyalty &amp; Retention Management Software &#8226; Pegke Loyalty &#8482;</title>
   <meta name="description" content="
   Category Restaurants -
    Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
@@ -17,7 +17,7 @@
 
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Pegke Rewards &#8482;">
+  <meta name="apple-mobile-web-app-title" content="Pegke Loyalty &#8482;">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="msapplication-tap-highlight" content="no">
 
@@ -283,7 +283,7 @@
   <script src="/public/js/head.min.js"></script>
 
   <link rel="canonical" href="https://pegke.com/category/restaurants/">
-  <link rel="alternate" type="application/rss+xml" title="Pegke Rewards &#8482;" href="https://pegke.com/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Pegke Loyalty &#8482;" href="https://pegke.com/feed.xml">
   <link rel="sitemap" title="Sitemap" type="application/xml" href="https://pegke.com/sitemap.xml">
   
 
@@ -332,7 +332,6 @@
 <meta name="msapplication-TileImage" content="/public/favicons/mstile-144x144.png">
 <meta name="msapplication-config" content="/public/favicons/browserconfig.xml">
 <meta property="twitter:image" content="https:/pegke.com/public/favicons/twitter.png">
-<meta property="og:image" content="https:/pegke.com/public/favicons/open-graph.png">
 <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-750x1294.png">
 <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/public/favicons/apple-touch-startup-image-1182x2208.png">
 <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/public/favicons/apple-touch-startup-image-1242x2148.png">
@@ -343,13 +342,14 @@
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/public/favicons/apple-touch-startup-image-768x1004.png">
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-1536x2008.png">
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-2048x1496.png">
+<meta property="og:image" content="https:/pegke.com/public/favicons/open-graph.png">
 </head>
 
   <body class="not-front">
     <div id="header" class="box-shadow">
   <div class="ui container nav">
     <div class="ui secondary menu">
-      <a href="/"><img src="/public/img/pegke-logo.svg" alt="Pegke Rewards &#8482; Logo" width="140" /></a>
+      <a href="/"><img src="/public/img/pegke-logo.svg" alt="Pegke Loyalty &#8482; Logo" width="140" /></a>
       <div class="menu right large monitor only">
         <a href="/pricing" class="item ui button red">Pricing</a>
         <a href="/features" class="item ui button red">Features</a>
@@ -564,6 +564,8 @@
           
           <a href="/customer-loyalty-program" class="item" title="Customer Loyalty Program">Customer Loyalty Program</a>
           
+          <a href="/about/team" class="item" title="Our Team">Our Team</a>
+          
           <a href="/about/privacy-policy" class="item" title="Privacy Policy">Privacy Policy</a>
           
           <a href="/about/terms-conditions" class="item" title="Terms and Conditions">Terms and Conditions</a>
@@ -633,7 +635,7 @@
   </div>
   <div class="ui left aligned container grey small">
     <div class="ui divider hidden"></div>
-    &copy; 2016 - <dfn><abbr title="Customer Loyalty &amp; Retention Management Software">Pegke Rewards &#8482;</abbr></dfn> ❤︎ <br>
+    &copy; 2016 - <dfn><abbr title="Customer Loyalty &amp; Retention Management Software">Pegke Loyalty &#8482;</abbr></dfn> ❤︎ <br>
   </div>
 </div>
 
@@ -769,12 +771,13 @@ head.ready(function () {
       $('.costs button').removeClass('positive');
       var selcur = $(this).attr('data-curr');
       $(this).addClass('positive');
+      console.log(selcur);
       if( selcur == 'usd' ) {
         $('.currency').text('$');
-        animateUpdate(0.42, 0.006, 3, 'amt');
+        animateUpdate(1.00, 0.014, 3, 'amt');
       } else if( selcur == 'inr' ) {
         $('.currency').text('₹');
-        animateUpdate(0.006, 0.42, 2, 'amt');
+        animateUpdate(0.014, 1.00, 2, 'amt');
       }
     });
 
@@ -807,7 +810,7 @@ head.ready(function () {
       $(this).addClass('positive');
       if( selcur == 'usd' ) {
         $('.entcurrency').text('$');
-        animateUpdate(0.62, 0.008, 3, 'entamt');
+        animateUpdate(1.00, 0.008, 3, 'entamt');
       } else if( selcur == 'inr' ) {
         $('.entcurrency').text('₹');
         animateUpdate(0.008, 0.62, 2, 'entamt');
@@ -845,9 +848,7 @@ head.ready(function () {
     })
   });
 
-  $('.menu .item')
-  .tab()
-  ;
+  $('.menu .item').tab();
 
   $('.ui.dropdown').dropdown();
   $('.ui.checkbox').checkbox();
@@ -857,6 +858,11 @@ head.ready(function () {
     context: '#context',
     offset: 75
   });
+
+  $('.special.card .image').dimmer({
+    on: 'hover'
+  });
+
   // $('.ui.label').popup();
   $('.rupee.icon').popup();
   $('.feature-list .item').popup();
