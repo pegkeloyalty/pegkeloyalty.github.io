@@ -5,9 +5,27 @@
     <description>Customer Loyalty &amp;amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards</description>
     <link>https://pegke.com/</link>
     <atom:link href="https://pegke.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 14:29:24 +0530</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 14:29:24 +0530</lastBuildDate>
+    <pubDate>Sat, 05 Mar 2016 00:05:09 +0530</pubDate>
+    <lastBuildDate>Sat, 05 Mar 2016 00:05:09 +0530</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Redeem Options</title>
+        <description>&lt;h1 id=&quot;own-products&quot;&gt;Own Products&lt;/h1&gt;
+&lt;p&gt;You can offer your ouwn products as redeemable items, all these options are managable from your dashboard.&lt;/p&gt;
+
+&lt;h1 id=&quot;gift-vouchers&quot;&gt;Gift Vouchers&lt;/h1&gt;
+&lt;p&gt;You can offer your customers many other gift vouchers of other companies&lt;/p&gt;
+
+&lt;h1 id=&quot;mobile-recharge&quot;&gt;Mobile Recharge&lt;/h1&gt;
+&lt;p&gt;You can allow your customers to redeem your points as mobile recharge, of many pre-paid and post paid services.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Mar 2016 00:00:00 +0530</pubDate>
+        <link>https://pegke.com/about/redeem-points</link>
+        <guid isPermaLink="true">https://pegke.com/about/redeem-points</guid>
+        
+        
+      </item>
     
       <item>
         <title>On-demand Marketing and Customer Loyalty</title>
@@ -58,7 +76,6 @@
       <item>
         <title>Our Team</title>
         <description>&lt;div class=&quot;ui four column stackable grid team&quot;&gt;
-
   &lt;div class=&quot;column&quot;&gt;
     &lt;div class=&quot;ui fluid card red special&quot;&gt;
       &lt;div class=&quot;blurring dimmable image&quot;&gt;
@@ -71,7 +88,7 @@
             &lt;/div&gt;
           &lt;/div&gt;
         &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
+        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; alt=&quot;Nikhil Mohan&quot; /&gt;
       &lt;/div&gt;
       &lt;div class=&quot;content&quot;&gt;
         &lt;span class=&quot;header&quot;&gt;Nikhil Mohan&lt;/span&gt;
@@ -116,37 +133,6 @@
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Prmaod J George&lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          EVP of Finance
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-
 &lt;/div&gt;
 
 &lt;div class=&quot;ui divider hidden horizontal bigger&quot;&gt;&lt;/div&gt;
@@ -154,23 +140,14 @@
 &lt;div class=&quot;ui four column stackable grid team&quot;&gt;
 
   &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
+    &lt;div class=&quot;ui fluid card red&quot;&gt;
+      &lt;div class=&quot;image&quot;&gt;
+        &lt;img src=&quot;/public/img/team/arup-gupta.jpg&quot; /&gt;
       &lt;/div&gt;
       &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Nikhil Mohan&lt;/span&gt;
+        &lt;span class=&quot;header&quot;&gt;Arup Gupta&lt;/span&gt;
         &lt;div class=&quot;meta&quot;&gt;
-          Director of Enterprise Marketing
+          Member of the Advisory Board
         &lt;/div&gt;
       &lt;/div&gt;
       &lt;div class=&quot;extra content&quot;&gt;
@@ -268,254 +245,6 @@
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;div class=&quot;ui divider hidden horizontal bigger&quot;&gt;&lt;/div&gt;
-&lt;h3&gt;Engineering&lt;/h3&gt;
-&lt;div class=&quot;ui four column stackable grid team&quot;&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Nikhil Mohan&lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          Director of Enterprise Marketing
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Sibiraj P.R. &lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          CTO &amp;amp; VP of Product
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Prmaod J George&lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          EVP of Finance
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Prmaod J George&lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          EVP of Finance
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;div class=&quot;ui divider hidden horizontal bigger&quot;&gt;&lt;/div&gt;
-&lt;h2&gt;Merchant success management&lt;/h2&gt;
-&lt;div class=&quot;ui four column stackable grid team&quot;&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Nikhil Mohan&lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          Director of Enterprise Marketing
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Sibiraj P.R. &lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          CTO &amp;amp; VP of Product
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Prmaod J George&lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          EVP of Finance
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&quot;column&quot;&gt;
-    &lt;div class=&quot;ui fluid card red special&quot;&gt;
-      &lt;div class=&quot;blurring dimmable image&quot;&gt;
-        &lt;div class=&quot;ui dimmer&quot;&gt;
-          &lt;div class=&quot;content&quot;&gt;
-            &lt;div class=&quot;center&quot;&gt;
-              &lt;div class=&quot;description&quot;&gt;
-                Steve Jobes is a fictional character designed to resemble someone familiar to readers.
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;img src=&quot;/public/img/team/nikhil-mohan.jpg&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;content&quot;&gt;
-        &lt;span class=&quot;header&quot;&gt;Prmaod J George&lt;/span&gt;
-        &lt;div class=&quot;meta&quot;&gt;
-          EVP of Finance
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;extra content&quot;&gt;
-        &lt;div class=&quot;right floated author&quot;&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;http://in.linkedin.com/nikhilmkumar&quot;&gt;&lt;i class=&quot;linkedin icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/nikhilmohan7&quot;&gt;&lt;i class=&quot;twitter icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 25 Jan 2016 00:00:00 +0530</pubDate>
@@ -1056,9 +785,8 @@ One of the super fast method to integrate Pegke with your business if you’re i
     &lt;/div&gt;
     &lt;div class=&quot;column&quot;&gt;
       &lt;div class=&quot;ui small images&quot;&gt;
-        &lt;img src=&quot;http://placehold.it/350&quot; class=&quot;ui image rounded fluid&quot; /&gt;
-        &lt;img src=&quot;http://placehold.it/350&quot; class=&quot;ui image rounded fluid&quot; /&gt;
-        &lt;img src=&quot;http://placehold.it/350&quot; class=&quot;ui image rounded fluid&quot; /&gt;
+        &lt;img src=&quot;/public/img/logo-192.png&quot; class=&quot;ui image rounded fluid&quot; /&gt;
+        &lt;img src=&quot;/public/img/logo-grayscale192.png&quot; class=&quot;ui image rounded fluid&quot; /&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1676,84 +1404,6 @@ Your clients will see through any fake representations on your part. In this man
         <pubDate>Mon, 16 Nov 2015 00:00:00 +0530</pubDate>
         <link>https://pegke.com/business/consumer-goods-sector</link>
         <guid isPermaLink="true">https://pegke.com/business/consumer-goods-sector</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Banking &amp; Financial</title>
-        <description>&lt;div class=&quot;ui basic fluid segment text&quot;&gt;
-
-  &lt;p&gt;At a time of unprecedented structural change in the financial services industry, banks and credit unions are contending with increasing challenges, including post-crisis regulations, a more demanding consumer and new competition from inside and outside the industry.&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Organizations are responding by making significant investments in core systems &amp;gt; replacement, digital channels and data analytics to ensure their ongoing
-competitiveness.&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  &lt;p&gt;While compliance with new regulations and new competitors remain a major challenge, maintaining customer loyalty is considered to be the financial industry’s biggest challenge, according to a study by Temenos. Cited by 30% of global senior bankers, there is concern that more empowered and better informed customers may begin to switch providers in greater numbers.&lt;/p&gt;
-
-  &lt;p&gt;Temenos’ 7th Annual Survey of Challenges, &lt;a href=&quot;https://www.temenos.com/en-us/market-insight/universal-insight/temenos-7th-annual-survey-of-the-financial-services-sector/&quot;&gt;Priorities and Trends in the Financial Services Sector&lt;/a&gt; found that the industry overall views their biggest threat as being technology vendors, such as Apple and Google (cited by 23% of respondents). In comparison, the retail bank and credit union sector found existing large incumbents and new bank entrants to be the biggest threat.&lt;/p&gt;
-
-  &lt;h2 id=&quot;two-major-findings&quot;&gt;Two major findings&lt;/h2&gt;
-
-  &lt;h3 id=&quot;a-surge-in-mobile-banking&quot;&gt;1. A surge in mobile banking&lt;/h3&gt;
-
-  &lt;p class=&quot;ui image left floated lazy&quot;&gt;&lt;img src=&quot;/public/img/banking_channel_mix.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-  &lt;p&gt;Mobile banking via smartphone or tablet is coming on strong in many countries. In the US, mobile usage jumped to 32% of customers from 21% in 2011. Usage in 2012 ranges from 47% of respondents in South Korea to 37% in India to 16% in Germany.&lt;/p&gt;
-
-  &lt;p&gt;Mobile banking is more likely to increase a US customer’s likelihood of recommending the bank than any other channel interaction. US customers especially love sophisticated features such as remote deposit capture (a digital image of an endorsed check), and they value the convenience of mobile devices for straightforward tasks such as checking a balance.&lt;/p&gt;
-
-  &lt;p&gt;In most European and Asian countries, customers cite online tools and transactions as having the strongest inﬂuence on their recommending a bank.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;The future is here and its name is “omnichannel”&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;If banks can take out costs in the processes that handle routine transactions, they will be able to serve mass segments more profitably and invest disproportionately in high-margin services for the afﬂuent. The way to accomplish this is through an omnichannel approach—integrating disparate digital and physical channels into a single, seamless experience—tailored to address the priorities of each customer segment.&lt;/p&gt;
-
-  &lt;p class=&quot;ui image fluid lazy&quot;&gt;&lt;img src=&quot;/public/img/customer-loyalty-in-retail-banking-2012-fig-10_full.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;In the omnichannel world, branches play a different role: more as product showrooms, sales centers and venues for expert financial advice on complex matters, and less as transaction mills. Light but sturdy branches include more self-service terminals for routine tasks or product application forms and interactive tutorials.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Loyalty trends worldwide&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;When it comes to loyalty rankings, it’s all relative. As banks review their Net Promoter scores, those with high scores may be tempted to compare across markets and declare themselves “best national bank” or “best credit union” globally.&lt;/p&gt;
-
-  &lt;p&gt;That would be misleading. Different countries exhibit structural differences in loyalty scores. We consistently find easier grading in some markets (the US and Mexico, among others) and very tough grading in others (the UK and France). Even within the US, we find variance among regions.&lt;/p&gt;
-
-  &lt;p class=&quot;ui image fluid lazy&quot;&gt;&lt;img src=&quot;http://www.bain.com/Images/customer-loyalty-in-retail-banking-2012-map_full.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-  &lt;h3 id=&quot;priorities-of-high-value-customer-segments&quot;&gt;2. Priorities of high-value customer segments&lt;/h3&gt;
-  &lt;p&gt;While the pace of regulatory change has abated somewhat, complying with complex new rules continues to require operational adjustment and high financial and human commitment. The challenge of complying with new regulations is considered much greater in the US and western Europe, where governments have potentially overcompensated for a perceived lack of regulation before the financial crisis.&lt;/p&gt;
-
-  &lt;p&gt;Private wealth management (PWM) and the universal banking sectors viewed regulation as their biggest threat in 36% and 28% of cases, respectively, caused by sector specific regulations that are onerous.&lt;/p&gt;
-
-  &lt;h4 id=&quot;other-concerns&quot;&gt;Other concerns&lt;/h4&gt;
-
-  &lt;h5 id=&quot;product-innovation-prioritization&quot;&gt;Product Innovation Prioritization&lt;/h5&gt;
-
-  &lt;p&gt;Correlating with the challenges of increased competition and consumer demands, product innovation was cited by 24% of the senior banker respondents to the Tememos survey, with 26% of retail bankers citing product innovation as their number one priority.&lt;/p&gt;
-
-  &lt;p class=&quot;ui image left floated lazy&quot;&gt;&lt;img src=&quot;http://thefinancialbrand.com/wp-content/uploads/2014/09/s_investment_priorities_9-28-2014-565x445.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;The picture is similar with investment in digital channels, with 18% of overall respondents and 20% of retail banking respondents mentioning digital channels as top priority. Interestingly, 22% of private wealth management sector respondents said investing in mobile channels was their top priority, suggesting the importance of younger investors.&lt;/p&gt;
-
-  &lt;p&gt;Not to be forgotten, investing in branches remains a priority (7% vs. 12% in 2012), indicating that retail banks are updating branch formats, increasing investment in new branch technology while converting physical facilities to centers for sales and advice as opposed to transactions.&lt;/p&gt;
-
-  &lt;h5 id=&quot;it-spending-explodes&quot;&gt;IT Spending Explodes&lt;/h5&gt;
-
-  &lt;p&gt;Aligning with other studies, the Telemos research found that 67% of respondents expected higher IT budgets in 2014 and just 11% anticipated their IT budget to shrink, giving a net positive delta of 56%, higher than in 2013 (53%) and in 2008 (46%).&lt;/p&gt;
-
-  &lt;p&gt;The trend illustrates how all banks, regardless of sector or geographical region recognize the priority of investing in IT to sustain competitiveness in the digital age. Real-time core banking system renewal built around customer records and not products, was cited as the number one IT investment priority for banks in 2014.&lt;/p&gt;
-
-  &lt;p&gt;The second biggest priority for IT spending, cited by 23% of respondents, was digital channels, with the single biggest area of investment being mobile apps for tablets and smartphones, cited by 32% of respondents. Overall, 17% of respondents were directing most of their mobile bank spending to building out basic services, such as balance requests and transfers, illustrating the game of catch up that many banks are faced with.&lt;/p&gt;
-
-  &lt;p&gt;&lt;img src=&quot;http://thefinancialbrand.com/wp-content/uploads/2014/09/planned_mobile_banking_investments_9-28-2014.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 16 Nov 2015 00:00:00 +0530</pubDate>
-        <link>https://pegke.com/business/banking-financial-loyalty</link>
-        <guid isPermaLink="true">https://pegke.com/business/banking-financial-loyalty</guid>
         
         
       </item>
