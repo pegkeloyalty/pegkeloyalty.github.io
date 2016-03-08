@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 
-  <title>Contact &#8226; Pegke Loyalty &#8482;</title>
+  <title>Contact Us &#8226; Pegke Loyalty &#8482;</title>
     <meta name="description" content="   We want your input">
-    <meta name="keywords" content=" Contact, customer loylaty, loyalty software, retail loyalty program, loyalty program, reward points, customer loylaty program, retention management ">
+    <meta name="keywords" content=" Contact Us, customer loylaty, loyalty software, retail loyalty program, loyalty program, reward points, customer loylaty program, retention management ">
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -281,13 +281,13 @@
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
-<meta name="twitter:title" content="Contact" />
+<meta name="twitter:title" content="Contact Us" />
 <meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Contact">
+<meta property="og:title" content="Contact Us">
 <meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
 <meta property="og:url" content="https://pegke.com/contact">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
@@ -378,7 +378,7 @@
 
 <div class="ui center header aligned text headerimg">
   <header class="ui center aligned">
-    <h1 class="post-title ui header huge" itemprop="name headline" title="Contact">Contact</h1>
+    <h1 class="post-title ui header huge" itemprop="name headline" title="Contact Us">Contact Us</h1>
     
 
     
@@ -399,19 +399,32 @@
     <div class="column ten wide">
       <form class="ui form" id="support">
         <div class="field">
-          <input type="text" name="subject" placeholder="Subject - Optional but helpful" required="" />
+          <input type="text" name="yourname" placeholder="Your Name (required)" required="" />
         </div>
         <div class="field">
           <input type="email" name="mail_address" placeholder="Your Email (required)" required="" />
         </div>
+        <div class="field">
+          <input type="tel" name="phone" placeholder="Your Phone (required)" required="" />
+        </div>
         <div class="field required ">
           <textarea name="content" placeholder="Details - as much as possible (required)" required=""></textarea>
         </div>
-
         <div class="ui orange small message"><i class="warning icon"></i> If you're an existing Pegke Loyalty merchant, please submit a request from your <a href="https://dashboard.pegke.com">dashboard</a></div>
 
         <button class="ui button submit positive toggle active" type="submit">Submit</button>
       </form>
+
+      <div class="ui green icon message ohidden" id="afterContact">
+        <i class="check circle outline big green icon"></i>
+        <div class="content">
+          <div class="header">
+            Thank you for contacting us.
+          </div>
+          <p>We have received your enquiry and will respond to you within 7 hours.  For urgent enquiries please call us on <a itemprop="telephone" href="tel:+914714000056">+91 (471) 400-0056</a></p>
+        </div>
+      </div>
+
       <div class="ui divider hidden"></div>
 
     </div>
@@ -461,7 +474,7 @@
           
           <a href="/check-points/" class="item" title="Check your points">Check your points</a>
           
-          <a href="/contact" class="item" title="Contact">Contact</a>
+          <a href="/contact" class="item" title="Contact Us">Contact Us</a>
           
           <a href="/customer-loyalty-program" class="item" title="Customer Loyalty Program">Customer Loyalty Program</a>
           
@@ -664,7 +677,7 @@ head.ready(function () {
 
   $.fn.api.settings.api = {
     'signup'  : 'https://dashboard.pegke.com/?q=api/mobileuser/register',
-    'support' : 'https://dashboard.pegke.com/?q=api/send_mail',
+    'support' : 'https://dashboard.pegke.com/?q=api/contact_us',
     'registermobile'  : 'https://dashboard.pegke.com/?q=api/mobileuser/register'
   };
 
@@ -828,7 +841,9 @@ head.ready(function () {
     serializeForm: true,
     dataType: 'json',
     onResponse: function (response) {
-      console.log(response);
+      $('form#support')[0].reset();
+      $('form#support').fadeOut();
+      $('#afterContact').removeClass('ohidden');
     }
   });
 
