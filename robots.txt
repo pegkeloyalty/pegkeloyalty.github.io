@@ -16,4 +16,7 @@
 User-agent: *
 Crawl-delay: 10
 
+Disallow: /
+
+
 Sitemap: https://pegke.com/sitemap.xml
