@@ -16,4 +16,7 @@
 User-agent: *
 Crawl-delay: 10
 
-Sitemap: https://beta.pegke.com/sitemap.xml
+Disallow: /
+
+
+Sitemap: https://pegke.com/sitemap.xml
