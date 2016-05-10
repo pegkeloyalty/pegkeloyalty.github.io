@@ -12,7 +12,7 @@
     
 
     <meta name="description" content=" ">
-    <meta name="keywords" content=" Technology stack, customer loylaty, loyalty software, retail loyalty program, loyalty program, reward points, customer loylaty program, retention management ">
+    <meta name="keywords" content=" Technology stack, customer loylaty program, loyalty software, retail loyalty program, loyalty program, reward points, loyalty rewards program, retention management ">
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -21,7 +21,13 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <style>
-    .overlayp {position: fixed;width: 100%;height: 100%;top: 0;left: 0;background: #FFF;z-index: 1000;padding: 25% 50%;
+    .overlayp {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;left: 0;
+      background: #FFF;
+      z-index: 1000;;
     }
     .wrapper {
       margin: auto;
@@ -31,255 +37,61 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
-
-    .cssload-loader {
-      width: 49px;
-      height: 49px;
-      border-radius: 50%;
-      margin: 3em;
-      display: inline-block;
-      position: relative;
-      vertical-align: middle;
+    .spinner {
+      width: 40px;
+      height: 40px;
+      margin: 100px auto;
+      background-color: #ec2a2f;
+      border-radius: 100%;
+      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+      animation: sk-scaleout 1.0s infinite ease-in-out;
     }
 
-    .cssload-loader {
-      width: 49px;
-      height: 49px;
-      border-radius: 50%;
-      margin: 3em;
-      display: inline-block;
-      position: relative;
-      vertical-align: middle;
-    }
-    .cssload-loader,
-    .cssload-loader:before,
-    .cssload-loader:after {
-      animation: 1.15s infinite ease-in-out;
-      -o-animation: 1.15s infinite ease-in-out;
-      -ms-animation: 1.15s infinite ease-in-out;
-      -webkit-animation: 1.15s infinite ease-in-out;
-      -moz-animation: 1.15s infinite ease-in-out;
-    }
-    .cssload-loader:before,
-    .cssload-loader:after {
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      position: absolute;
-      top: 0;
-      left: 0;
+    @-webkit-keyframes sk-scaleout {
+      0% { -webkit-transform: scale(0) }
+      100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+      }
     }
 
-    .cssload-loader:before,
-    .cssload-loader:after {
-      content: "";
-    }
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        } 100% {
+          -webkit-transform: scale(1.0);
+          transform: scale(1.0);
+          opacity: 0;
+        }
+      }
 
-    .cssload-loader {
-      background-color: white;
-      animation: cssload-flower-fan 0.46s infinite linear;
-      -o-animation: cssload-flower-fan 0.46s infinite linear;
-      -ms-animation: cssload-flower-fan 0.46s infinite linear;
-      -webkit-animation: cssload-flower-fan 0.46s infinite linear;
-      -moz-animation: cssload-flower-fan 0.46s infinite linear;
-    }
-    .cssload-loader:before{
-      content: "";
-      width: 80%;
-      height: 80%;
-      background-color: white;
-      top: 10%;
-      left: 10%;
-      box-shadow: 5px -3px 0 rgba(255,100,100,0.7),
-      5px 5px 0 rgba(100,255,100,0.7),
-      -3px 5px 0 rgba(100,100,255,0.7),
-      -5px -5px 0 rgba(240,240,120,0.7);
-      -o-box-shadow: 5px -3px 0 rgba(255,100,100,0.7),
-      5px 5px 0 rgba(100,255,100,0.7),
-      -3px 5px 0 rgba(100,100,255,0.7),
-      -5px -5px 0 rgba(240,240,120,0.7);
-      -ms-box-shadow: 5px -3px 0 rgba(255,100,100,0.7),
-      5px 5px 0 rgba(100,255,100,0.7),
-      -3px 5px 0 rgba(100,100,255,0.7),
-      -5px -5px 0 rgba(240,240,120,0.7);
-      -webkit-box-shadow: 5px -3px 0 rgba(255,100,100,0.7),
-      5px 5px 0 rgba(100,255,100,0.7),
-      -3px 5px 0 rgba(100,100,255,0.7),
-      -5px -5px 0 rgba(240,240,120,0.7);
-      -moz-box-shadow: 5px -3px 0 rgba(255,100,100,0.7),
-      5px 5px 0 rgba(100,255,100,0.7),
-      -3px 5px 0 rgba(100,100,255,0.7),
-      -5px -5px 0 rgba(240,240,120,0.7);
-    }
-    .cssload-loader:after{
-      content: "";
-      border: 3px solid white;
-      z-index: 2;
-      top: -3px;
-      left: -3px;
-    }
+      .mobile.no-landscape .pageone {
+        height: 500px;
+      }
+      .mobile.no-landscape .pageone .pitch{
+        z-index: 1;
+      }
+      </style>
 
+      <link rel="shortlink" href="http://bit.ly/pegkeweb">
 
-    @keyframes cssload-flower-fan {
-      0%	 { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
+      <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400" />
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:700" />
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400italic" />
+      <![endif]-->
 
-    @-o-keyframes cssload-flower-fan {
-      0%	 { -o-transform: rotate(0deg); }
-      100% { -o-transform: rotate(360deg); }
-    }
+      <link rel="preload" href="/public/img/1.jpg">
 
-    @-ms-keyframes cssload-flower-fan {
-      0%	 { -ms-transform: rotate(0deg); }
-      100% { -ms-transform: rotate(360deg); }
-    }
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
 
-    @-webkit-keyframes cssload-flower-fan {
-      0%	 { -webkit-transform: rotate(0deg); }
-      100% { -webkit-transform: rotate(360deg); }
-    }
+      <script src="/public/js/head.min.js"></script>
 
-    @-moz-keyframes cssload-flower-fan {
-      0%	 { -moz-transform: rotate(0deg); }
-      100% { -moz-transform: rotate(360deg); }
-    }
-    .rw-wrapper{
-      width: 80%;
-      position: relative;
-      margin: 110px auto 0 auto;
-      padding: 10px;
-    }
-    .rw-sentence{
-      margin: 0;
-      text-align: left;
-      text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-    }
-    .rw-sentence span{
-      color: #444;
-      white-space: nowrap;
-      font-size: 200%;
-      font-weight: normal;
-    }
-    .rw-words{
-      display: inline;
-      text-indent: 10px;
-    }
-    .rw-words span{
-      position: absolute;
-      opacity: 0;
-      overflow: hidden;
-      width: 100%;
-      color: #6b969d;
-    }
-    .rw-words-1 span{
-      -webkit-animation: rotateWordsFirst 18s linear infinite 0s;
-      -ms-animation: rotateWordsFirst 18s linear infinite 0s;
-      animation: rotateWordsFirst 18s linear infinite 0s;
-    }
-    .rw-words-2 span{
-      -webkit-animation: rotateWordsSecond 18s linear infinite 0s;
-      -ms-animation: rotateWordsSecond 18s linear infinite 0s;
-      animation: rotateWordsSecond 18s linear infinite 0s;
-    }
-    .rw-words span:nth-child(2) {
-      -webkit-animation-delay: 3s;
-      -ms-animation-delay: 3s;
-      animation-delay: 3s;
-      color: #6b889d;
-    }
-    .rw-words span:nth-child(3) {
-      -webkit-animation-delay: 6s;
-      -ms-animation-delay: 6s;
-      animation-delay: 6s;
-      color: #6b739d;
-    }
-    .rw-words span:nth-child(4) {
-      -webkit-animation-delay: 9s;
-      -ms-animation-delay: 9s;
-      animation-delay: 9s;
-      color: #7a6b9d;
-    }
-    .rw-words span:nth-child(5) {
-      -webkit-animation-delay: 12s;
-      -ms-animation-delay: 12s;
-      animation-delay: 12s;
-      color: #8d6b9d;
-    }
-    .rw-words span:nth-child(6) {
-      -webkit-animation-delay: 15s;
-      -ms-animation-delay: 15s;
-      animation-delay: 15s;
-      color: #9b6b9d;
-    }
-    @-webkit-keyframes rotateWordsFirst {
-      0% { opacity: 1; -webkit-animation-timing-function: ease-in; height: 0px; }
-      8% { opacity: 1; height: 60px; }
-      19% { opacity: 1; height: 60px; }
-      25% { opacity: 0; height: 60px; }
-      100% { opacity: 0; }
-    }
-    @-ms-keyframes rotateWordsFirst {
-      0% { opacity: 1; -ms-animation-timing-function: ease-in; height: 0px; }
-      8% { opacity: 1; height: 60px; }
-      19% { opacity: 1; height: 60px; }
-      25% { opacity: 0; height: 60px; }
-      100% { opacity: 0; }
-    }
-    @keyframes rotateWordsFirst {
-      0% { opacity: 1; -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; height: 0px; }
-      8% { opacity: 1; height: 60px; }
-      19% { opacity: 1; height: 60px; }
-      25% { opacity: 0; height: 60px; }
-      100% { opacity: 0; }
-    }
-    @-webkit-keyframes rotateWordsSecond {
-      0% { opacity: 1; -webkit-animation-timing-function: ease-in; width: 0px; }
-      10% { opacity: 0.3; width: 0px; }
-      20% { opacity: 1; width: 100%; }
-      27% { opacity: 0; width: 100%; }
-      100% { opacity: 0; }
-    }
-    @-ms-keyframes rotateWordsSecond {
-      0% { opacity: 1; -ms-animation-timing-function: ease-in; width: 0px; }
-      10% { opacity: 0.3; width: 0px; }
-      20% { opacity: 1; width: 100%; }
-      27% { opacity: 0; width: 100%; }
-      100% { opacity: 0; }
-    }
-    @keyframes rotateWordsSecond {
-      0% { opacity: 1; -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; width: 0px; }
-      10% { opacity: 0.3; width: 0px; }
-      20% { opacity: 1; width: 100%; }
-      27% { opacity: 0; width: 100%; }
-      100% { opacity: 0; }
-    }
-    @media screen and (max-width: 768px){
-      .rw-sentence { font-size: 18px; }
-    }
-    @media screen and (max-width: 320px){
-      .rw-sentence { font-size: 9px; }
-    }
-    </style>
-
-    <link rel="shortlink" href="http://bit.ly/pegkeweb">
-
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400" />
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:700" />
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400italic" />
-    <![endif]-->
-
-    <link rel="preload" href="/public/img/1.jpg">
-
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
-
-    <script src="/public/js/head.min.js"></script>
-
-    <link rel="canonical" href="https://pegke.com/about/technology-stack">
-    <link rel="alternate" type="application/rss+xml" title="Pegke Loyalty &#8482;" href="https://pegke.com/feed.xml">
-    <link rel="sitemap" title="Sitemap" type="application/xml" href="https://pegke.com/sitemap.xml">
-    
+      <link rel="canonical" href="https://pegke.com/about/technology-stack">
+      <link rel="alternate" type="application/rss+xml" title="Pegke Loyalty &#8482;" href="https://pegke.com/feed.xml">
+      <link rel="sitemap" title="Sitemap" type="application/xml" href="https://pegke.com/sitemap.xml">
+      
 
 
 
@@ -301,8 +113,8 @@
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
 
 
-    <!--  Favicons -->
-    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/public/favicons/apple-touch-startup-image-1024x748.png">
+      <!--  Favicons -->
+      <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/public/favicons/apple-touch-startup-image-1024x748.png">
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-2048x1496.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/public/favicons/android-chrome-192x192.png">
 <link rel="manifest" href="/public/favicons/manifest.json">
@@ -343,7 +155,7 @@
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-1496x2048.png">
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-1536x2008.png">
 <meta property="og:image" content="https://pegke.com/public/favicons/open-graph.png">
-  </head>
+    </head>
 
 <body class="not-front">
   <div id="header" class="box-shadow">
@@ -1001,19 +813,19 @@ head.ready(function () {
       },
     }
   });
-  $('.overlayp').remove();
 });
-
-function submitForm() {
-  alert('dfgdfg');
-}
 </script>
 <script src="https://linked.chat/web/6gdw5e" async></script>
+<script>
+$(window).bind("load", function () {
+  $('.overlayp').remove();
+});
+</script>
 <script>(function(G,o,O,g,l){G.GoogleAnalyticsObject=O;G[O]||(G[O]=function(){(G[O].q=G[O].q||[]).push(arguments)});G[O].l=+new Date;g=o.createElement('script'),l=o.scripts[0];g.src='https://www.google-analytics.com/analytics.js';l.parentNode.insertBefore(g,l)}(this,document,'ga'));ga('create', 'UA-38015473-1', 'pegke.com');ga('require', 'displayfeatures');ga('set', '&uid', 0);ga('send', 'pageview')</script>
 
   <div class="overlayp">
     <div class="wrapper">
-      <div class="cssload-loader"></div>
+      <div class="spinner"></div>
     </div>
   </div>
 </body>
