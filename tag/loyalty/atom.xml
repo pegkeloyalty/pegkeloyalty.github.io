@@ -276,6 +276,8 @@
 
     <link rel="preload" href="/public/img/1.jpg">
 
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
+
     <script src="/public/js/head.min.js"></script>
 
     <link rel="canonical" href="https://pegke.com/tag/loyalty/atom.xml">
