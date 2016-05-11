@@ -112,7 +112,7 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/public/favicons/android-chrome-192x192.png">
 <link rel="manifest" href="/public/favicons/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#D73D32">
+<meta name="theme-color" content="#F13030">
 <meta name="application-name" content="Pegke Loyalty">
 <link rel="apple-touch-icon" sizes="57x57" href="/public/favicons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/public/favicons/apple-touch-icon-60x60.png">
@@ -133,7 +133,7 @@
 <link rel="icon" type="image/png" sizes="230x230" href="/public/favicons/favicon-230x230.png">
 <link rel="shortcut icon" href="/public/favicons/favicon.ico">
 <link rel="yandex-tableau-widget" href="/public/favicons/yandex-browser-manifest.json">
-<meta name="msapplication-TileColor" content="#D73D32">
+<meta name="msapplication-TileColor" content="#F13030">
 <meta name="msapplication-TileImage" content="/public/favicons/mstile-144x144.png">
 <meta name="msapplication-config" content="/public/favicons/browserconfig.xml">
 <meta property="twitter:image" content="https://pegke.com/public/favicons/twitter.png">
@@ -159,12 +159,12 @@
         <a href="/pricing" class="item ui button red">Pricing</a>
         <a href="/features" class="item ui button red">Features</a>
         <a href="/how-it-works" class="item ui button red">How it Works</a>
-        <a href="/about/pegke-loyalty" class="item ui button red">About</a>
+        <a href="/about/pegke-loyalty" class="item ui button red nexth">About</a>
         <div class="item">
           <div class="ui medium buttons">
             <a class="ui button red ctal" href="#signup">sign up</a>
             <div class="or"></div>
-            <a class="ui button blue" href="/contact">request demo</a>
+            <a class="ui button blue" href="/contact">contact us</a>
           </div>
         </div>
       </div>
@@ -328,7 +328,7 @@
   <div class="ui basic modal signup">
   <i class="close large icon red"></i>
   <form class="ui form segment green" id="merchantregn">
-    <h3 class="ui grey big header">Tell Us About Yourself</h3>
+    <h3 class="ui grey big header">Start giving loyalty points to your customers.</h3>
     <div class="two fields">
       <div class="field">
         <label>Business Name</label>
@@ -336,14 +336,13 @@
       </div>
       <div class="field">
         <div class="field">
-          <label>Phone <small>Incude country code.</small></label>
+          <label>Phone <small>Include country code.</small></label>
           <div class="ui input">
             <input type="tel" name="field_contact_number[und][0][value]" placeholder="Phone Number">
           </div>
         </div>
       </div>
     </div>
-
     <div class="two fields">
       <div class="field">
         <label>Email</label>
@@ -362,8 +361,6 @@
         </div>
       </div>
     </div>
-
-
     <div class="two fields">
       <div class="field">
         <label>Location</label>
@@ -450,7 +447,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
+  var apiBaseurl = https://dashboard.pegke.com/?q=;
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -552,14 +549,8 @@ head.ready(function () {
       phone: {
         identifier: 'field_contact_number[und][0][value]',
         rules: [{
-          type: 'minLength[10]',
-          prompt: 'Your {ruleValue} digit phone Number'
-        }, {
-          type: 'number',
-          prompt: 'Numbers Only'
-        }, {
-          type: 'maxLength[15]',
-          prompt: 'Your Number cannot exceed {ruleValue} digitd'
+          type: 'regExp[/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im]',
+          prompt: 'Please check the format'
         }]
       },
       country: {
@@ -720,8 +711,9 @@ head.ready(function () {
 </script>
 <script src="https://linked.chat/web/6gdw5e" async></script>
 <script>
-$(window).bind("load", function () {
-  $('.overlayp').remove();
+jQuery(window).bind("load", function () {
+  jQuery('.overlayp').remove();
+  jQuery('.menu.widescreen .nexth').after('<a href="https://dashboard.pegke.com" class="item ui button red ml">MERCHANT LOG IN</a>');
 });
 </script>
 <script>(function(G,o,O,g,l){G.GoogleAnalyticsObject=O;G[O]||(G[O]=function(){(G[O].q=G[O].q||[]).push(arguments)});G[O].l=+new Date;g=o.createElement('script'),l=o.scripts[0];g.src='https://www.google-analytics.com/analytics.js';l.parentNode.insertBefore(g,l)}(this,document,'ga'));ga('create', 'UA-38015473-1', 'pegke.com');ga('require', 'displayfeatures');ga('set', '&uid', 0);ga('send', 'pageview')</script>
