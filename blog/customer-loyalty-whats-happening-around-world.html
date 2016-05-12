@@ -89,18 +89,21 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="6 Customer Loyalty trends around the World" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="<p>Reward programs are intended to exactly deliver this – be able to track and reward customer behavior. Statistics also indicate that consumer participation in rewards programs is on the rise across all demographic segments. With more customers choosing to do coupon and bargain shopping in the store, the reward programs that provide personalized rewards will prove to be differentiators if implemented with a laser sharp focus on targeted customer segments.</p>
+
+" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="6 Customer Loyalty trends around the World">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="<p>Reward programs are intended to exactly deliver this – be able to track and reward customer behavior. Statistics also indicate that consumer participation in rewards programs is on the rise across all demographic segments. With more customers choosing to do coupon and bargain shopping in the store, the reward programs that provide personalized rewards will prove to be differentiators if implemented with a laser sharp focus on targeted customer segments.</p>
+
+">
 <meta property="og:url" content="https://pegke.com/blog/customer-loyalty-whats-happening-around-world">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -573,7 +576,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -723,8 +726,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

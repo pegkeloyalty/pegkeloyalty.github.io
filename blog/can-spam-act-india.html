@@ -89,18 +89,17 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="Anti-spam Legislation India" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="The impact of spam is clearly widespread. Presently, India lacks a specific anti-spam legislation. In consideration of the swelling growth of spam across the globe and the increasing number of Indian users, it is of utmost urgency that a specific legislation is formulated to tackle the issue" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Anti-spam Legislation India">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="The impact of spam is clearly widespread. Presently, India lacks a specific anti-spam legislation. In consideration of the swelling growth of spam across the globe and the increasing number of Indian users, it is of utmost urgency that a specific legislation is formulated to tackle the issue">
 <meta property="og:url" content="https://pegke.com/blog/can-spam-act-india">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -569,7 +568,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -719,8 +718,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

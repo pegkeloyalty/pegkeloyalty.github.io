@@ -89,18 +89,17 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="How to start a loyalty rewards program for your customers" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="Loyalty points, rewards program or loyalty discount is the best way to encourage customers to refer more clients to your business and thereby earn their loyalty." />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="How to start a loyalty rewards program for your customers">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="Loyalty points, rewards program or loyalty discount is the best way to encourage customers to refer more clients to your business and thereby earn their loyalty.">
 <meta property="og:url" content="https://pegke.com/blog/start-loyalty-rewards-program-your-customers">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -573,7 +572,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -723,8 +722,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

@@ -89,18 +89,27 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="Check your points" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="<div class="ui grid stackable">
+  <div class="column eight wide">
+    Download our app from app store and earn poits from the installing itself,
+    keep the app ready for your next purchase.
+
+" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Check your points">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="<div class="ui grid stackable">
+  <div class="column eight wide">
+    Download our app from app store and earn poits from the installing itself,
+    keep the app ready for your next purchase.
+
+">
 <meta property="og:url" content="https://pegke.com/check-points/">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -524,7 +533,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -674,8 +683,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

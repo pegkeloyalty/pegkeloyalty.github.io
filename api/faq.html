@@ -89,18 +89,53 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="Developer FAQ" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="<div class="ui text segment pegke">
+  <div class="ui accordion">
+    <div class="title">
+      <i class="dropdown icon"></i>
+      App token has expired!
+    </div>
+    <div class="content">
+      <p class="transition hidden">First, that is a good thing. Tokens are like cash, if you have it you can use it. You don't need to prove that token belongs to you, so don't let anyone steal your token. In order to lower the risk tokens should expire fairly quickly. If your token expires in 120s then it will be only usable during that window.</p>
+    </div>
+    <div class="title">
+      <i class="dropdown icon"></i>
+      What do I do if my token was expired?
+    </div>
+    <div class="content">
+      <p>
+        Along with your access token, an authentication token is created. It's called the refresh token . It's a longer lived token, that it's associated to an access token and can be used to create a replica of your expired access token. You can then use that new access token normally.
+
+</p></div></div></div>
+" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Developer FAQ">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="<div class="ui text segment pegke">
+  <div class="ui accordion">
+    <div class="title">
+      <i class="dropdown icon"></i>
+      App token has expired!
+    </div>
+    <div class="content">
+      <p class="transition hidden">First, that is a good thing. Tokens are like cash, if you have it you can use it. You don't need to prove that token belongs to you, so don't let anyone steal your token. In order to lower the risk tokens should expire fairly quickly. If your token expires in 120s then it will be only usable during that window.</p>
+    </div>
+    <div class="title">
+      <i class="dropdown icon"></i>
+      What do I do if my token was expired?
+    </div>
+    <div class="content">
+      <p>
+        Along with your access token, an authentication token is created. It's called the refresh token . It's a longer lived token, that it's associated to an access token and can be used to create a replica of your expired access token. You can then use that new access token normally.
+
+</p></div></div></div>
+">
 <meta property="og:url" content="https://pegke.com/api/faq">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -483,7 +518,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -633,8 +668,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

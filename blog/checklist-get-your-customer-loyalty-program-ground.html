@@ -89,18 +89,21 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="A Checklist to Get Your Customer Loyalty Program off the Ground" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="<p>Customer Loyalty ought to be a go-to methodology for any small business, yet the fact of the matter is, paying little heed to if the system is computerized or an old-school punch card, little entrepreneurs don’t feel like they have room schedule-wise to tackle more obligation.</p>
+
+" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="A Checklist to Get Your Customer Loyalty Program off the Ground">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="<p>Customer Loyalty ought to be a go-to methodology for any small business, yet the fact of the matter is, paying little heed to if the system is computerized or an old-school punch card, little entrepreneurs don’t feel like they have room schedule-wise to tackle more obligation.</p>
+
+">
 <meta property="og:url" content="https://pegke.com/blog/checklist-get-your-customer-loyalty-program-ground">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -608,7 +611,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -758,8 +761,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

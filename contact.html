@@ -89,18 +89,57 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="Contact Us" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="<div class="ui container text segment support pegke">
+  <h2>We want your input</h2>
+  <div class="ui grid stackable">
+    <div class="column ten wide">
+      <form class="ui form" id="support">
+        <div class="field">
+          <input type="text" name="yourname" placeholder="Your Name (required)" required="" />
+        </div>
+        <div class="field">
+          <input type="email" name="mail_address" placeholder="Your Email (required)" required="" />
+        </div>
+        <div class="field">
+          <input type="tel" name="phone" placeholder="Your Phone (required)" required="" />
+        </div>
+        <div class="field required ">
+          <textarea name="content" placeholder="Details - as much as possible (required)" required=""></textarea>
+        </div>
+        <div class="ui orange small message"><i class="warning icon"></i> If you're an existing Pegke Loyalty merchant, please submit a request from your <a href="https://dashboard.pegke.com">dashboard</a>.</div>
+
+</form></div></div></div>
+" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Contact Us">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="<div class="ui container text segment support pegke">
+  <h2>We want your input</h2>
+  <div class="ui grid stackable">
+    <div class="column ten wide">
+      <form class="ui form" id="support">
+        <div class="field">
+          <input type="text" name="yourname" placeholder="Your Name (required)" required="" />
+        </div>
+        <div class="field">
+          <input type="email" name="mail_address" placeholder="Your Email (required)" required="" />
+        </div>
+        <div class="field">
+          <input type="tel" name="phone" placeholder="Your Phone (required)" required="" />
+        </div>
+        <div class="field required ">
+          <textarea name="content" placeholder="Details - as much as possible (required)" required=""></textarea>
+        </div>
+        <div class="ui orange small message"><i class="warning icon"></i> If you're an existing Pegke Loyalty merchant, please submit a request from your <a href="https://dashboard.pegke.com">dashboard</a>.</div>
+
+</form></div></div></div>
+">
 <meta property="og:url" content="https://pegke.com/contact">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -482,7 +521,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -632,8 +671,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

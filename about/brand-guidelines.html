@@ -89,18 +89,47 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="Brand Guidelines" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="<div class="ui two column stackable grid">
+    <div class="column">
+      <h2>Usage</h2>
+      <p>
+        The Pegke Loyalty marks include the Pegke Loyalty name and logo, and any word, phrase, image, or other designation that identifies the source or origin of any of Pegke Loyalty's products. Please don't modify the marks or use them in a confusing way, including suggesting sponsorship or endorsement by Pegke Loyalty, or in a way that confuses Pegke Loyalty with another brand (including your own).
+      </p>
+    </div>
+    <div class="column">
+      <div class="ui small images">
+        <img src="/public/img/logo-192.png" class="ui image rounded fluid" />
+        <img src="/public/img/logo-grayscale192.png" class="ui image rounded fluid" />
+      </div>
+    </div>
+  </div>
+
+" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Brand Guidelines">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="<div class="ui two column stackable grid">
+    <div class="column">
+      <h2>Usage</h2>
+      <p>
+        The Pegke Loyalty marks include the Pegke Loyalty name and logo, and any word, phrase, image, or other designation that identifies the source or origin of any of Pegke Loyalty's products. Please don't modify the marks or use them in a confusing way, including suggesting sponsorship or endorsement by Pegke Loyalty, or in a way that confuses Pegke Loyalty with another brand (including your own).
+      </p>
+    </div>
+    <div class="column">
+      <div class="ui small images">
+        <img src="/public/img/logo-192.png" class="ui image rounded fluid" />
+        <img src="/public/img/logo-grayscale192.png" class="ui image rounded fluid" />
+      </div>
+    </div>
+  </div>
+
+">
 <meta property="og:url" content="https://pegke.com/about/brand-guidelines">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -484,7 +513,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -634,8 +663,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

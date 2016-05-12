@@ -89,18 +89,79 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="Our Team" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="<div class="ui four column stackable grid team">
+  <div class="column">
+    <div class="ui fluid card red special">
+      <div class="blurring dimmable image">
+        <div class="ui dimmer">
+          <div class="content">
+            <div class="center">
+              <div class="description">
+                Co-founder and Director of Enterprise Marketing.
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/public/img/team/nikhil-mohan.jpg" alt="Nikhil Mohan" />
+      </div>
+      <div class="content">
+        <span class="header">Nikhil Mohan</span>
+        <div class="meta">
+          VP of Enterprise Marketing
+        </div>
+      </div>
+      <div class="extra content">
+        <div class="right floated author">
+          <a target="_blank" href="http://in.linkedin.com/nikhilmkumar"><i class="linkedin icon"></i></a>
+          <a target="_blank" href="https://twitter.com/nikhilmohan7"><i class="twitter icon"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Our Team">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="<div class="ui four column stackable grid team">
+  <div class="column">
+    <div class="ui fluid card red special">
+      <div class="blurring dimmable image">
+        <div class="ui dimmer">
+          <div class="content">
+            <div class="center">
+              <div class="description">
+                Co-founder and Director of Enterprise Marketing.
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/public/img/team/nikhil-mohan.jpg" alt="Nikhil Mohan" />
+      </div>
+      <div class="content">
+        <span class="header">Nikhil Mohan</span>
+        <div class="meta">
+          VP of Enterprise Marketing
+        </div>
+      </div>
+      <div class="extra content">
+        <div class="right floated author">
+          <a target="_blank" href="http://in.linkedin.com/nikhilmkumar"><i class="linkedin icon"></i></a>
+          <a target="_blank" href="https://twitter.com/nikhilmohan7"><i class="twitter icon"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+">
 <meta property="og:url" content="https://pegke.com/about/team">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -538,7 +599,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -688,8 +749,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',

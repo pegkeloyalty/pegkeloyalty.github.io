@@ -89,18 +89,21 @@
 
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp">
 <meta name="twitter:title" content="Loyalty over the Holidays" />
-<meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta name="twitter:description" content="<p>Amid the extreme center of attention on scoring revenue in a sea of competitors, it can be easy to omit what must be the precedence — successful a patron who sticks round long after the ultimate slice of ham is eaten and the lights come down. If the value of loyalty escapes you, understand this: consistent with Harvard business review, growing patron retention rates by just 5% raises gains with the aid of 25% to 95%.</p>
+
+" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Loyalty over the Holidays">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+<meta property="og:description" content="<p>Amid the extreme center of attention on scoring revenue in a sea of competitors, it can be easy to omit what must be the precedence — successful a patron who sticks round long after the ultimate slice of ham is eaten and the lights come down. If the value of loyalty escapes you, understand this: consistent with Harvard business review, growing patron retention rates by just 5% raises gains with the aid of 25% to 95%.</p>
+
+">
 <meta property="og:url" content="https://pegke.com/blog/customer-loyalty-over-holidays">
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -544,7 +547,7 @@ head.ready(function () {
   $('.cta, .ctal').click(function() {
     $('.ui.modal.signup').modal('show');
   });
-  var apiBaseurl = https://dashboard.pegke.com/?q=;
+  var apiBaseurl = 'https://dashboard.pegke.com/?q=';
   $.fn.api.settings.api = {
     'signup'  : apiBaseurl + 'api/mobileuser/vendor_registration',
     'support' : apiBaseurl + 'api/contact_us',
@@ -694,8 +697,7 @@ head.ready(function () {
         }]
       }
     },
-    inline : true,
-    on     : 'blur'
+    on : 'blur'
   })
   .api({
     method: 'post',
