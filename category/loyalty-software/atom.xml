@@ -7,110 +7,112 @@
 
   <title>
     Category: Loyalty Software
-    Categories and Tags &#8226; Pegke Loyalty &#8482;</title>
+    Categories and Tags &#8226; Pegke Loyalty &#8482;
+  </title>
 
-    
+  
 
-    <meta name="description" content="
-    Category Loyalty Software -
-     Categories and Tags | Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
-    <meta name="keywords" content="
-    Category Loyalty Software
-     Categories and Tags, customer loylaty program, loyalty software, retail loyalty program, loyalty program, reward points, loyalty rewards program, retention management ">
+  <meta name="description" content="
+  Category Loyalty Software -
+   Categories and Tags | Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
+  <meta name="keywords" content="
+  Category Loyalty Software
+   Categories and Tags, customer loylaty program, loyalty software, retail loyalty program, loyalty program, reward points, loyalty rewards program, retention management ">
 
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="Pegke Loyalty &#8482;">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="msapplication-tap-highlight" content="no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Pegke Loyalty &#8482;">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="msapplication-tap-highlight" content="no">
 
-    <style>
-    .overlayp {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      top: 0;left: 0;
-      background: #FFF;
-      z-index: 1000;;
+  <style>
+  .overlayp {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;left: 0;
+    background: #FFF;
+    z-index: 1000;;
+  }
+  .wrapper {
+    margin: auto;
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .spinner {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+    background-color: #ec2a2f;
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+  }
+
+  @-webkit-keyframes sk-scaleout {
+    0% { -webkit-transform: scale(0) }
+    100% {
+      -webkit-transform: scale(1.0);
+      opacity: 0;
     }
-    .wrapper {
-      margin: auto;
-      display: block;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .spinner {
-      width: 40px;
-      height: 40px;
-      margin: 100px auto;
-      background-color: #ec2a2f;
-      border-radius: 100%;
-      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
-      animation: sk-scaleout 1.0s infinite ease-in-out;
-    }
+  }
 
-    @-webkit-keyframes sk-scaleout {
-      0% { -webkit-transform: scale(0) }
-      100% {
+  @keyframes sk-scaleout {
+    0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      } 100% {
         -webkit-transform: scale(1.0);
+        transform: scale(1.0);
         opacity: 0;
       }
     }
+    </style>
 
-    @keyframes sk-scaleout {
-      0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        } 100% {
-          -webkit-transform: scale(1.0);
-          transform: scale(1.0);
-          opacity: 0;
-        }
-      }
-      </style>
+    <link rel="shortlink" href="http://bit.ly/pegkeweb">
 
-      <link rel="shortlink" href="http://bit.ly/pegkeweb">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:700" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400italic" />
+    <![endif]-->
 
-      <!--[if lte IE 8]>
-      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400" />
-      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:700" />
-      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400italic" />
-      <![endif]-->
+    <link rel="preload" href="/public/img/1.jpg">
 
-      <link rel="preload" href="/public/img/1.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
 
-      <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
+    <script src="/public/js/head.min.js"></script>
 
-      <script src="/public/js/head.min.js"></script>
+    <link rel="canonical" href="https://pegke.com/category/loyalty-software/atom.xml">
+    <link rel="alternate" type="application/rss+xml" title="Pegke Loyalty &#8482;" href="https://pegke.com/feed.xml">
+    <link rel="sitemap" title="Sitemap" type="application/xml" href="https://pegke.com/sitemap.xml">
+    
 
-      <link rel="canonical" href="https://pegke.com/category/loyalty-software/atom.xml">
-      <link rel="alternate" type="application/rss+xml" title="Pegke Loyalty &#8482;" href="https://pegke.com/feed.xml">
-      <link rel="sitemap" title="Sitemap" type="application/xml" href="https://pegke.com/sitemap.xml">
-      
 
 
 
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="pegkeapp">
+<meta name="twitter:site" content="pegkeapp" />
 <meta name="twitter:title" content="Categories and Tags" />
 <meta name="twitter:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Categories and Tags">
-<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards">
-<meta property="og:url" content="https://pegke.com/category/loyalty-software/atom.xml">
-<meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software">
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Categories and Tags" />
+<meta property="og:description" content="Customer Loyalty &amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards" />
+<meta property="og:url" content="https://pegke.com/category/loyalty-software/atom.xml" />
+<meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software" />
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
 
 
-      <!--  Favicons -->
-      <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/public/favicons/apple-touch-startup-image-1024x748.png">
+    <!--  Favicons -->
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/public/favicons/apple-touch-startup-image-1024x748.png">
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-2048x1496.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/public/favicons/android-chrome-192x192.png">
 <link rel="manifest" href="/public/favicons/manifest.json">
@@ -151,7 +153,7 @@
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-1496x2048.png">
 <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-1536x2008.png">
 <meta property="og:image" content="https://pegke.com/public/favicons/open-graph.png">
-    </head>
+  </head>
 
 <body class="not-front">
   <div id="header" class="box-shadow">
@@ -561,12 +563,11 @@ head.ready(function () {
 
     if ($('#pegkestat').length) {
       var dt = new Date();
-      $.getJSON("https://dashboard.pegke.com/?q=api/pegke_status", function( data ) {
+      $.getJSON(apiBaseurl + "api/pegke_status", function( data ) {
         console.log(data);
         $('#lstmod').text(dt);
         var items = [];
         $.each( data.sstatus, function( key, val) {
-
           items.push( '<div class="item"> \
           <div class="right floated content"> \
           <div class="ui tiny green label">' + val + '</div> \
