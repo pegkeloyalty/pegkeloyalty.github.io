@@ -28,7 +28,7 @@
     height: 100%;
     top: 0;left: 0;
     background: #FFF;
-    z-index: 1000;;
+    z-index: 1000;
   }
   .wrapper {
     margin: auto;
@@ -108,9 +108,7 @@
 
 
     <!--  Favicons -->
-    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/public/favicons/apple-touch-startup-image-1024x748.png">
-<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/public/favicons/apple-touch-startup-image-2048x1496.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/public/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/public/favicons/android-chrome-192x192.png">
 <link rel="manifest" href="/public/favicons/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#F13030">
@@ -163,9 +161,9 @@
         <a href="/about/pegke-loyalty" class="item ui button red nexth">About</a>
         <div class="item">
           <div class="ui medium buttons">
-            <a class="ui button red ctal" href="#signup">sign up</a>
+            <a class="ui button red ctal" href="#signup" onClick="ga('send', 'event', 'signuptop', 'click', 'Start Trial Today', 1);" >sign up</a>
             <div class="or"></div>
-            <a class="ui button blue" href="/contact">contact us</a>
+            <a class="ui button blue" href="/contact" onClick="ga('send', 'event', 'contact', 'click', 'Start Trial Today', 1);" >contact us</a>
           </div>
         </div>
       </div>
@@ -309,7 +307,7 @@ var disqus_config = function () {
 
           <div class="ui divider hidden"></div>
           <div class="ui orange fluid button animated huge cta" tabindex="0">
-  <div class="visible content">Start free trial today! <i class="heart icon white"></i></div>
+  <div class="visible content" onClick="ga('send', 'event', 'signupblog', 'click', 'Start Trial Today', 1);" >Start free trial today! <i class="heart icon white"></i></div>
   <div class="hidden content">
     No Credit Card required
   </div>
@@ -825,6 +823,7 @@ jQuery(window).bind("load", function () {
 });
 </script>
 <script>(function(G,o,O,g,l){G.GoogleAnalyticsObject=O;G[O]||(G[O]=function(){(G[O].q=G[O].q||[]).push(arguments)});G[O].l=+new Date;g=o.createElement('script'),l=o.scripts[0];g.src='https://www.google-analytics.com/analytics.js';l.parentNode.insertBefore(g,l)}(this,document,'ga'));ga('create', 'UA-38015473-1', 'pegke.com');ga('require', 'displayfeatures');ga('set', '&uid', 0);ga('send', 'pageview')</script>
+
 
   <div class="overlayp">
     <div class="wrapper">
