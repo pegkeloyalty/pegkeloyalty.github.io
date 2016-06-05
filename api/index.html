@@ -12,7 +12,7 @@
   <link rel="amphtml" href="https://pegke.com/amp/api">
   
 
-  <meta name="description" content=" An HTTP/JSON based API that allows you to build applications that interact with Pegke in more complex ways">
+  <meta name="description" content=" Pegke Loyalty Merchant API is documented in github.com">
   <meta name="keywords" content=" Developer Docs, customer loylaty program, loyalty software, retail loyalty program, loyalty program, reward points, loyalty rewards program, retention management ">
 
   <meta name="mobile-web-app-capable" content="yes">
@@ -95,13 +95,13 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="pegkeapp" />
 <meta name="twitter:title" content="Developer Docs" />
-<meta name="twitter:description" content="An HTTP/JSON based API that allows you to build applications that interact with Pegke in more complex ways" />
+<meta name="twitter:description" content="Pegke Loyalty Merchant API is documented in github.com" />
 <meta name="twitter:image" content="https://pegke.com/public/og/pegke-og.jpg" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Developer Docs" />
-<meta property="og:description" content="An HTTP/JSON based API that allows you to build applications that interact with Pegke in more complex ways" />
+<meta property="og:description" content="Pegke Loyalty Merchant API is documented in github.com" />
 <meta property="og:url" content="https://pegke.com/api/" />
 <meta property="og:site_name" content="Customer Loyalty &amp; Retention Management Software" />
 <meta property="og:image" content="https://pegke.com/public/og/pegke-og.jpg"/>
@@ -203,17 +203,9 @@
 </div>
 
 <div class="ui container">
-  <div class="ui stackable grid">
+  <div class="ui stackable grid text">
 
   <div class="twelve wide column">
-
-    <p>Two-legged OAuth, or “signed fetch”, takes advantage of OAuth’s signatures to authenticate server-to-server requests. It doesn’t need to involve the user nor any access tokens.</p>
-
-    <p>If a consumer site wants to make an authorized API call to a provider site, they can simply sign the request the same way that they would sign a request token request. The provider verifies the signature and services the request if the consumer is authorized.</p>
-
-    <p>Two-legged OAuth is not well specified in any standards docs that I’ve seen. It’s more of a convenient reuse of the signature scheme.</p>
-
-    <p><strong>HTTPS is always required.</strong></p>
 
     <h2>How to Enable API access</h2>
 
@@ -228,224 +220,24 @@
     </ol>
 
     <div id="context" class="ui text">
-      <h2>Getting started with pegke API</h2>
-      <div class="ui grid stackable hashnav">
-        <div class="six wide column">
-
-          <p><a href="#web">Web API</a></p>
-          <p>
-An HTTP/JSON based API that allows you to build applications that interact with Pegke in more complex ways.
-</p>
-
-          <ul class="ui list">
-<li><a href="#auth">Authenticate</a></li>
-<li><a href="#give">Give Loyalty Points</a></li>
-<li><a href="#search">Search User</a></li>
-<li><a href="#validate">Validate a Redeem</a></li>
-<li><a href="#shistory">Store History</a></li>
-<li><a href="#uhistory">User History</a></li>
-</ul>
-        </div>
-        <div class="six wide column ui">
-          <p><a href="#rta">Realtime Activity API</a></p>
-          <p>
-A WebSocket-based API that allows you to stream your in-store activity.
-</p>
-
-          <ul class="ui list">
-<li><a href="#store">Store Activity</a></li>
-</ul>
-
-        </div>
-      </div>
-      <div class="ui divider horizontal header blue">
-        <h2 id="web">Web API</h2>
-      </div>
-
-      <div class="ui divider hidden"></div>
-      <p><a href="https://apigility.org/documentation/auth/authentication-oauth2">OAuth 2</a> is a protocol that lets your app request authorization to private details in a customer’s and Business data to your application.</p>
-      <p>
-You’ll need to collect your OAuth tokens to make API calls, each merchant account is assigned a unique Client ID and Client Secret which will be used in the OAuth flow. The Client Secret should not be shared.
-</p>
-
-      <h3 id="auth">Authenticate</h3>
-
-      <p>Since we are using <strong>OAuth 2.0 Bearer Token</strong> you are always authorized <strong>if and only if</strong> you are passing the header</p>
-      <pre><code class="language-http">Authorization: Bearer YOUR-ACCES-TOKEN
-</code></pre>
-
-      <h3 id="give">Give Loyalty Points</h3>
-      <p>You can give Loyalty points to any customer using <strong>Customer ID, Mobile Number, or Email</strong></p>
-
-      <pre><code class="language-http">POST /entity/user?_format=json HTTP/1.1
-Host: dashboard.pegke.com/v1
-Content-Type: application/json
-Authorization: Bearer RvnIMUDspJs_RFFIKqWYF4zGMDJL9C4OrXHao3-mrZ8
-
-{
-  "idType": "mob" // either mob, cid, email
-  "mob": 9826471001 // 10 Digit Phone number. must match with the value of <strong>idType</strong>
-  "points": 10 // the points
-}
-</code></pre>
-
-      <h4 id="response">Response</h4>
-
-      <p><em>Success</em></p>
-      <pre class="success"><code class="language-http">HTTP/1.1 200 OK
-Content-Type: application/json
-
-{
-    "access_token": "907c762e069589c2cd2a229cdae7b8778caa9f07",
-    "expires_in": 3600,
-    "refresh_token": "43018382188f462f6b0e5784dd44c36f476ccce6",
-    "scope": null,
-    "token_type": "Bearer"
-}</code></pre>
-
-      <p><em>Failure</em></p>
-
-      <p>A failure can be of multiple reasons; it can be either</p>
-
-      <ul>
-        <li>Access Token Expired</li>
-        <li>Value Missing</li>
-        <li>idType Mismatch</li>
-      </ul>
-
-      <p>Please refer to <a href="https://httpstatuses.com">HTTP Status</a> Codes for more information</p>
-
-      <pre class="fail"><code class="language-http">HTTP/1.1 401 Unauthorized
-Content-Type: application/json
-
-{
-    "access_token": "907c762e069589c2cd2a229cdae7b8778caa9f07",
-    "expires_in": 3600,
-    "refresh_token": "43018382188f462f6b0e5784dd44c36f476ccce6",
-    "scope": null,
-    "token_type": "Bearer"
-}</code></pre>
-
-      <h3 id="search">Search User</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-      <pre><code class="language-http">POST /entity/user?_format=json HTTP/1.1
-Host: dashboard.pegke.com/v1
-Content-Type: application/json
-Authorization: Bearer RvnIMUDspJs_RFFIKqWYF4zGMDJL9C4OrXHao3-mrZ8
-
-{
-  "idType": "mob" // either mob, cid, email
-  "mob": 9826471001 // 10 Digit Phone number. must match with the value of <strong>idType</strong>
-  "points": 10 // the points
-}
-</code></pre>
-
-      <h4 id="response-1">Response</h4>
-
-      <p><em>Success</em></p>
-      <pre class="success"><code class="language-http">HTTP/1.1 200 OK
-Content-Type: application/json
-
-{
-    "access_token": "907c762e069589c2cd2a229cdae7b8778caa9f07",
-    "expires_in": 3600,
-    "refresh_token": "43018382188f462f6b0e5784dd44c36f476ccce6",
-    "scope": null,
-    "token_type": "Bearer"
-}</code></pre>
-
-      <p><em>Failure</em></p>
-
-      <p>A failure can be of multiple reasons; it can be either</p>
-
-      <ul>
-        <li>Access Token Expired</li>
-        <li>Value Missing</li>
-        <li>idType Mismatch</li>
-      </ul>
-
-      <p>Please refer to <a href="https://httpstatuses.com">HTTP Status</a> Codes for more information</p>
-
-      <pre class="fail"><code class="language-http">HTTP/1.1 401 Unauthorized
-Content-Type: application/json
-
-{
-    "access_token": "907c762e069589c2cd2a229cdae7b8778caa9f07",
-    "expires_in": 3600,
-    "refresh_token": "43018382188f462f6b0e5784dd44c36f476ccce6",
-    "scope": null,
-    "token_type": "Bearer"
-}</code></pre>
-
-      <h3 id="validate">Validate a Redeem</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-      <pre><code class="language-http">POST /entity/user?_format=json HTTP/1.1
-Host: dashboard.pegke.com/v1
-Content-Type: application/json
-Authorization: Bearer RvnIMUDspJs_RFFIKqWYF4zGMDJL9C4OrXHao3-mrZ8
-
-{
-  "idType": "mob" // either mob, cid, email
-  "mob": 9826471001 // 10 Digit Phone number. must match with the value of <strong>idType</strong>
-  "points": 10 // the points
-}
-</code></pre>
-
-      <h4 id="response-2">Response</h4>
-
-      <p><em>Success</em></p>
-      <pre class="success"><code class="language-http">HTTP/1.1 200 OK
-Content-Type: application/json
-
-{
-    "access_token": "907c762e069589c2cd2a229cdae7b8778caa9f07",
-    "expires_in": 3600,
-    "refresh_token": "43018382188f462f6b0e5784dd44c36f476ccce6",
-    "scope": null,
-    "token_type": "Bearer"
-}</code></pre>
-
-      <p><em>Failure</em></p>
-
-      <p>A failure can be of multiple reasons; it can be either</p>
-
-      <ul>
-        <li>Access Token Expired</li>
-        <li>Value Missing</li>
-        <li>idType Mismatch</li>
-      </ul>
-
-      <p>Please refer to <a href="https://httpstatuses.com">HTTP Status</a> Codes for more information</p>
-
-      <pre class="fail"><code class="language-http">HTTP/1.1 401 Unauthorized
-Content-Type: application/json
-
-{
-    "access_token": "907c762e069589c2cd2a229cdae7b8778caa9f07",
-    "expires_in": 3600,
-    "refresh_token": "43018382188f462f6b0e5784dd44c36f476ccce6",
-    "scope": null,
-    "token_type": "Bearer"
-}</code></pre>
-
-      <h3 id="shistory">Store History</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <h3 id="uhistory">User History</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
       <div class="ui divider hidden"></div>
 
-      <div class="ui divider horizontal header blue">
-        <h2 id="rta">Realtime Activity API</h2>
-      </div>
+      <h2>Read Pegke Merchat API Documentation on <a href="https://github.com/pegkeloyalty/merchant-api">github</a></h2>
 
-      <h3 id="store">Store Activity</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="ui divider hidden"></div>
+
+      <h3>Example code is availabe</h3>
+
+      <ol>
+  <li> <a href="https://github.com/pegkeloyalty/merchant-api/tree/master/nodejs-request">nodejs-request</a> </li>
+  <li> <a href="https://github.com/pegkeloyalty/merchant-api/tree/master/php-http-v2">php-http-v2</a></li>
+</ol>
+
+      <p>Documentation is available <a href="https://github.com/pegkeloyalty/merchant-api/blob/master/README.md">here</a></p>
+
+      <div class="ui divider hidden"></div>
+      <p><a href="https://github.com/pegkeloyalty/merchant-api/archive/master.zip"><img src="/public/img/github-badge.png" alt="pegkeloyaty" /></a></p>
 
     </div>
 
@@ -453,23 +245,6 @@ Content-Type: application/json
 
   <div class="four wide column mobile hidden">
     <div class="ui sticky">
-      <div class="ui vertical fluid menu hashnav">
-        <p><a class="main item" href="#web">Web API</a></p>
-        <div class="menu">
-          <p><a class="item" href="#auth">Authenticate</a>
-<a class="item" href="#give">Give Loyalty Points</a>
-<a class="item" href="#search">Search User</a>
-<a class="item" href="#validate">Validate a Redeem</a>
-<a class="item" href="#shistory">Store History</a>
-<a class="item" href="#uhistory">User History</a></p>
-        </div>
-        <p><a class="main item" href="#rta">Realtime Activity API</a></p>
-
-        <div class="menu">
-          <p><a class="item" href="#store">Store Activity</a></p>
-        </div>
-      </div>
-
       <div class="ui segment">
         <h4>Quick Links</h4>
         <ul class="ui bulleted list">
@@ -482,11 +257,6 @@ Content-Type: application/json
         <div class="ui divider hidden"></div>
 
       </div>
-
-      <div class="ui small message blue">
-        <p>All API requests must be made over HTTPS. Calls made over plain HTTP will fail. API requests without authentication will also fail.</p>
-      </div>
-
       <div class="ui segment">
         <h3>References</h3>
         <ul class="ui bulleted list">
@@ -496,9 +266,7 @@ Content-Type: application/json
       </div>
 
     </div>
-
   </div>
-
 </div>
 
 </div>
@@ -722,18 +490,6 @@ head.load(
   "/public/css/pegke-api.min.css",
   "/public/js/semanticjs.api.min.js"
 );
-head.ready(function () {
-  $(document).ready(function() {
-    $(".hashnav").scrollspy();
-    $('.hashnav a').click(function() {
-      $('.hashnav a').removeClass('active');
-      $(this).addClass('active');
-      $('html, body').animate({
-        scrollTop: $($(this).attr('href')).offset().top - 80
-      }, 200);
-    });
-  });
-});
 </script>
 
 

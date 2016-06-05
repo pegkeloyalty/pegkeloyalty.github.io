@@ -5,8 +5,8 @@
     <description>Customer Loyalty &amp;amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards</description>
     <link>https://pegke.com/</link>
     <atom:link href="https://pegke.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2016-05-26T06:48:55+05:30</pubDate>
-    <lastBuildDate>2016-05-26T06:48:55+05:30</lastBuildDate>
+    <pubDate>2016-06-05T11:11:36+05:30</pubDate>
+    <lastBuildDate>2016-06-05T11:11:36+05:30</lastBuildDate>
     
       <item>
         <title>How to start a loyalty rewards program for your customers</title>
@@ -25,6 +25,8 @@
           <category>Rewards</category>
         
           <category>Loyalty Software</category>
+        
+          <category>Loyalty Points</category>
         
       </item>
     
@@ -124,6 +126,10 @@
         
           <category>Holidays</category>
         
+          <category>Loyalty Points</category>
+        
+          <category>Trends</category>
+        
       </item>
     
       <item>
@@ -214,7 +220,7 @@
     
       <item>
         <title>Developer Docs</title>
-        <description>Two-legged OAuth, or “signed fetch”, takes advantage of OAuth’s signatures to authenticate server-to-server requests. It doesn’t need to involve the user nor any access tokens.    If a consumer site wants to make an authorized API call to a provider site, they can simply sign the request the same way that they would sign a request token request. The provider verifies the signature and services the request if the consumer is authorized.    Two-legged OAuth is not well specified in any standards docs that I’ve seen. It’s more of a convenient r...</description>
+        <description>How to Enable API access    An administrator of Pegke Loyalty, merchant must complete the following steps:          Go to your merchant dashboard.      Navigate to API Access Menu      Authorization ➔ Consumers ➔ Edit under your external application’s Consumer Copy the secret and key      Select Manage API client access in the Authentication section.      Manage the IP address in appropriate tab to manage access to your end point                    Read Pegke Merchat API Documentation on github            Example code is availabe         nod...</description>
         <pubDate>2015-11-22T00:00:00+05:30</pubDate>
         <link>https://pegke.com/api/</link>
         <guid isPermaLink="true">https://pegke.com/api/</guid>
