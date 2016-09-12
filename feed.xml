@@ -5,8 +5,8 @@
     <description>Customer Loyalty &amp;amp; Retention Management Software, integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards</description>
     <link>https://pegke.com/</link>
     <atom:link href="https://pegke.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2016-06-05T11:11:36+05:30</pubDate>
-    <lastBuildDate>2016-06-05T11:11:36+05:30</lastBuildDate>
+    <pubDate>2016-09-12T07:19:48+05:30</pubDate>
+    <lastBuildDate>2016-09-12T07:19:48+05:30</lastBuildDate>
     
       <item>
         <title>How to start a loyalty rewards program for your customers</title>
@@ -180,7 +180,7 @@
     
       <item>
         <title>Technology stack</title>
-        <description>Application and Data                                                                                                                                  Utilities                                                                          DevOps                                          Business Tools                                  We Love Developers      You&#39;ve came this far, we appreciate that... :)            Quick Links  GitHub  Support  Join Our Team  API  Developer FAQ</description>
+        <description>Application and Data                                                                                                                                  Utilities                                                                          DevOps                                          Business Tools                                  We Love Developers      You've came this far, we appreciate that... :)            Quick Links  GitHub  Support  Join Our Team  API  Developer FAQ</description>
         <pubDate>2015-12-10T00:00:00+05:30</pubDate>
         <link>https://pegke.com/about/technology-stack</link>
         <guid isPermaLink="true">https://pegke.com/about/technology-stack</guid>
@@ -190,7 +190,7 @@
     
       <item>
         <title>Brand Guidelines</title>
-        <description>Usage              The Pegke Loyalty marks include the Pegke Loyalty name and logo, and any word, phrase, image, or other designation that identifies the source or origin of any of Pegke Loyalty&#39;s products. Please don&#39;t modify the marks or use them in a confusing way, including suggesting sponsorship or endorsement by Pegke Loyalty, or in a way that confuses Pegke Loyalty with another brand (including your own).                                                    Download Logos          Our brand assets can be downloaded from Brandfolder.    ...</description>
+        <description>Usage              The Pegke Loyalty marks include the Pegke Loyalty name and logo, and any word, phrase, image, or other designation that identifies the source or origin of any of Pegke Loyalty's products. Please don't modify the marks or use them in a confusing way, including suggesting sponsorship or endorsement by Pegke Loyalty, or in a way that confuses Pegke Loyalty with another brand (including your own).                                                    Download Logos          Our brand assets can be downloaded from Brandfolder.    ...</description>
         <pubDate>2015-12-10T00:00:00+05:30</pubDate>
         <link>https://pegke.com/about/brand-guidelines</link>
         <guid isPermaLink="true">https://pegke.com/about/brand-guidelines</guid>
@@ -210,7 +210,7 @@
     
       <item>
         <title>Join Our Team</title>
-        <description>A lot of companies talk about culture, their awesome office, fun events and great perks. But we view culture differently. We believe it&#39;s about rallying people who enjoy each other&#39;s company and respect each other&#39;s skill. It&#39;s about working alongside people you rely on to spar with you intellectually one moment, then grab tacos with you the next.                    We&#39;ve created a culture that rewards bright, driven, and fun-loving people. We take our work seriously. But ourselves? Not so much.            At Pegke Loyalty &amp;#8482; you can......</description>
+        <description>A lot of companies talk about culture, their awesome office, fun events and great perks. But we view culture differently. We believe it's about rallying people who enjoy each other's company and respect each other's skill. It's about working alongside people you rely on to spar with you intellectually one moment, then grab tacos with you the next.                    We've created a culture that rewards bright, driven, and fun-loving people. We take our work seriously. But ourselves? Not so much.            At Pegke Loyalty &amp;#8482; you can......</description>
         <pubDate>2015-11-25T00:00:00+05:30</pubDate>
         <link>https://pegke.com/about/careers</link>
         <guid isPermaLink="true">https://pegke.com/about/careers</guid>
@@ -230,7 +230,7 @@
     
       <item>
         <title>Developer FAQ</title>
-        <description>App token has expired!              First, that is a good thing. Tokens are like cash, if you have it you can use it. You don&#39;t need to prove that token belongs to you, so don&#39;t let anyone steal your token. In order to lower the risk tokens should expire fairly quickly. If your token expires in 120s then it will be only usable during that window.                    What do I do if my token was expired?                      Along with your access token, an authentication token is created. It&#39;s called the refresh token . It&#39;s a longer lived to...</description>
+        <description>App token has expired!              First, that is a good thing. Tokens are like cash, if you have it you can use it. You don't need to prove that token belongs to you, so don't let anyone steal your token. In order to lower the risk tokens should expire fairly quickly. If your token expires in 120s then it will be only usable during that window.                    What do I do if my token was expired?                      Along with your access token, an authentication token is created. It's called the refresh token . It's a longer lived to...</description>
         <pubDate>2015-11-22T00:00:00+05:30</pubDate>
         <link>https://pegke.com/api/faq</link>
         <guid isPermaLink="true">https://pegke.com/api/faq</guid>
